@@ -8,12 +8,31 @@ author: ""
 
 # Week 1 (1/13): Introduction to AI and Creativity
 
+## Tuesday
+
+- Syllabus Review
 - **Topics**: Overview of course themes, questions: “What does it mean to make music with AI?” and “Is this even a good idea?”
 - **Key Concepts**: Brainard’s creativity framework (novelty, value, agency, curiosity).
-- **Activity**: Discuss ethical and philosophical issues around machine-human collaboration and audience perspectives.
+- Discussion
+  - When you hear the term 'AI music,' what comes to mind?
+  - What are some examples of how you think AI might be used to create music?
+  - What are your initial feelings or reactions to the idea of AI creating music?
+- Listen to some tracks from [Suno](https://suno.com/) and [AIVA](https://www.aiva.ai/).
+  - Take some notes on what you hear and how you feel about it. Focus on musical elements. 
+- Discussion
+  - What aspect of the music helped you tell that it was created by an AI system?
+  - Would you listen to any of this music again? Why or why not?
+  - What's the place of music like this in society?
+
+
+> **For next class**: Read Brainard’s *Introduction* and *Section 2.1*. 
+> Download [here](https://philpapers.org/archive/BRATCC-9.pdf)
+
+## Thursday 
+
 - **Reading**: Brainard’s *Introduction* and *Section 2.1*.
-- **Discussion Prompt**: "Does AI creativity challenge the human role in the arts?"
-  
+- **Activity**: Discuss ethical and philosophical issues around machine-human collaboration and audience perspectives.
+
 <!--   
 ## **Week 2 (1/20): Foundations of AI in Music**
 

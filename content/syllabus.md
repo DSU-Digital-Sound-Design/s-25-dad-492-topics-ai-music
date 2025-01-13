@@ -4,6 +4,6 @@ date = "2019-01-25"
 +++
 
 
-[Download](../ways_and_means_syllabus.pdf)
+[Download](../dad-492-syllabus.pdf)
 
-{{< pdf url="./ways_and_means_syllabus.pdf" >}}
+{{< pdf url="./dad-492-syllabus.pdf" >}}
