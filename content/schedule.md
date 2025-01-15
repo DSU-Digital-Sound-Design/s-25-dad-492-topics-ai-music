@@ -32,7 +32,8 @@ author: ""
 
 - **Reading**: Brainard’s *Introduction* and *Section 2.1*.
   - [slides](../lectures/week-1/brainard-intro-2.1/)
-- [Intro to Tone.js (Web Audio API)](../lectures/week-1/tonejs-intro) 
+- Prepping for the etudes
+  - [Intro to Tone.js (Web Audio API)](../lectures/week-1/tonejs-intro) 
 
 # Week 2 (1/20): Foundations of AI in Music
 
