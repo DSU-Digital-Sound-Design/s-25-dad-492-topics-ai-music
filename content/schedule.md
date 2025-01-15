@@ -31,11 +31,15 @@ author: ""
 ## Thursday 
 
 - **Reading**: Brainard’s *Introduction* and *Section 2.1*.
-- **Activity**: Discuss ethical and philosophical issues around machine-human collaboration and audience perspectives.
+  - [slides](../lectures/week-1/brainard-intro-2.1/)
+
+# Week 2 (1/20): Foundations of AI in Music
+
+## Tuesday
+
+- No class - (out of town for Professional Development)
 
 <!--   
-## **Week 2 (1/20): Foundations of AI in Music**
-
 - **Topics**: GOFAI techniques (rule-based systems, algorithmic composition) and their relevance today.
 - **Key Concepts**: Novelty in creativity (historical vs. psychological).
 - **Activity**: Analyze algorithmic compositions for novelty.
