@@ -41,19 +41,23 @@ author: ""
 
 - No class - (out of town for Professional Development)
 
-<!--   
-- **Topics**: GOFAI techniques (rule-based systems, algorithmic composition) and their relevance today.
-- **Key Concepts**: Novelty in creativity (historical vs. psychological).
-- **Activity**: Analyze algorithmic compositions for novelty.
-- **Reading**: Brainard’s *Section 2.2* (Novelty).
-- **Assignment**: Etude 1 (word2vec Poetry).
-- **No Class**: 1/21 (Professional Development).
+<!-- - **Topics**: GOFAI techniques (rule-based systems, algorithmic composition) and their relevance today.
+- **Activity**: Analyze algorithmic compositions for novelty. -->
   
+## Thursday
+
+- **Assignment**: Etude 1 (word2vec Poetry).
+- [Intro to word2vec](../lectures/week-2/word2vec-intro)
+- Mapping word embeddings to musical features
+- **Etude due** - ...
+  
+> **For next class** read Brainard’s *Section 2.2* (Novelty) and *Section 2.3* (Value).
+
+<!--   
 ## **Week 3 (1/27): Hands-On with word2vec**
 - **Topics**: Generative poetry and interactive systems using word2vec.
 - **Key Concepts**: Value and epistemic goods in creativity.
 - **Activity**: Students evaluate the epistemic value of their outputs.
-- **Reading**: Brainard’s *Section 2.3* (Value).
 - **Assignment**: Reflection: "What is creativity in AI systems?"
 - **Etude 1 Due**: 1/26.
   
