@@ -3,8 +3,21 @@ title: "Word2vec Intro"
 
 ---
 
- ## Step 1: Basic Word Display
+## Introduction to Word2vec
+
+- Word2vec is a technique for creating word vectors, which are numerical representations of words. These vectors capture the semantic relationships between words, allowing us to perform operations like word similarity and analogy.
+- Distance in the vector space corresponds to similarity between words. Words that are close together in the vector space are similar in meaning.
+  - example: "king" and "queen" are close together, while "king" and "car" are far apart.
+
+## Documentation and Resources
+
+- [Word2vec](https://en.wikipedia.org/wiki/Word2vec) - Wikipedia
+- [ml5.js word2vec](https://archive-docs.ml5js.org/#/reference/word2vec) - ml5.js Word2Vec
+- Allison Parrish's [word2vec tutorial](https://gist.github.com/aparrish/2f562e3737544cf29aaf1af30362f469) - a great resource for understanding word2vec
+
+## Step 1: Basic Word Display
  Let's start with the simplest version - displaying a word and finding related words using word2vec. This establishes our foundation. This first step introduces the core concepts of
+
 - Setting up a basic p5.js canvas
 - Loading the word2vec model
 - Creating a simple user interface

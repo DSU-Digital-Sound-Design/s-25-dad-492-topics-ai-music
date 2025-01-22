@@ -49,7 +49,7 @@ author: ""
 - **Assignment**: Etude 1 (word2vec Poetry).
 - [Intro to word2vec](../lectures/week-2/word2vec-intro)
 - Mapping word embeddings to musical features
-- **Etude due next week** - [Etude 1: Sonic Poetry Generator](../etudes/etude-1-word2vec)
+- **Etude due next week** - [Etude 1: Sonic Poetry Generator](../projects#etude-1-sonic-poetry-generator)
   
 > **For next class** read Brainard’s *Section 2.2* (Novelty) and *Section 2.3* (Value).
 

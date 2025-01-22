@@ -10,9 +10,7 @@ author: ""
 # Etude 1 - Sonic Poetry Generator 
 
 ## Overview
-
-
-In this assignment, you will create a sonic poetry generator that explores the relationship between words and sound. Building upon our in-class examples, you will implement one musical extension that demonstrates your understanding of synthesis, sound design, or music theory.
+In this assignment, you will create a sonic poetry generator that explores the relationship between words and sound. Building upon our [in-class examples](../lectures/week-2/word2vec-intro/), you will implement one musical extension that demonstrates your understanding of synthesis, sound design, or music theory.
 
 ## Core Requirements
 
