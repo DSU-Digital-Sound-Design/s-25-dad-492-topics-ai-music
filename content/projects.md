@@ -50,23 +50,24 @@ Implementation guidance:
 - Keep effect levels moderate to maintain clarity
 - Consider how the space changes with different word combinations
 
-## Assessment Rubric (15 points)
+## Assessment Rubric (50 points)
 
-### Core Functionality (7 points)
-- Word generation works correctly (2 points)
-- Basic audio plays reliably (2 points)
-- Visual display functions (2 points)
-- Start/stop works properly (1 point)
+### Core Functionality (25 points)
+- Word generation works correctly (7 points)
+- Basic audio plays reliably (7 points)
+- Visual display functions (7 points)
+- Start/stop works properly (4 points)
 
-### Musical Extension (5 points)
-- Sonic implementation (2 points)
-- Musical effectiveness (2 points)
-- Creative use of parameters (1 point)
+### Musical Extension (17 points)
+- Sonic implementation (6 points)
+- Musical effectiveness (6 points)
+- Creative use of parameters (5 points)
 
-### Documentation and Process (3 points)
-- Documentation of musical choices (1 point)
-- Clear explanation of parameters (1 point)
-- Thoughtful sound design decisions (1 point)
+### Documentation and Process (8 points)
+- Documentation of musical choices (3 points)
+- Clear explanation of parameters (3 points)
+- Thoughtful sound design decisions (2 points)
+
 
 ## Submission Requirements
 1. Your code with clear comments explaining audio parameters

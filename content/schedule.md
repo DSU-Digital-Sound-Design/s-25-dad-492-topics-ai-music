@@ -49,19 +49,24 @@ author: ""
 - **Assignment**: Etude 1 (word2vec Poetry).
 - [Intro to word2vec](../lectures/week-2/word2vec-intro)
 - Mapping word embeddings to musical features
-- **Etude due next week** - [Etude 1: Sonic Poetry Generator](../projects#etude-1-sonic-poetry-generator)
+- **Etude due 1/31** - [Etude 1: Sonic Poetry Generator](../projects#etude-1-sonic-poetry-generator)
   
 > **For next class** read Brainard’s *Section 2.2* (Novelty) and *Section 2.3* (Value).
 
-<!--   
-## **Week 3 (1/27): Hands-On with word2vec**
+# Week 3 (1/27): Hands-On with word2vec
+
+## Tuesday 
+
 - **Topics**: Generative poetry and interactive systems using word2vec.
 - **Key Concepts**: Value and epistemic goods in creativity.
 - **Activity**: Students evaluate the epistemic value of their outputs.
-- **Assignment**: Reflection: "What is creativity in AI systems?"
-- **Etude 1 Due**: 1/26.
-  
 
+## Thursday
+
+- **Assignment**: Reflection: "What is creativity in AI systems?"
+- **Etude 1 Due**: 1/31.
+  
+<!--   
 ## **Week 4 (2/3): Machine Learning for Music**
 - **Topics**: MIR techniques (k-NN, SVM, HMM) and applications in feature extraction and classification.
 - **Key Concepts**: Agency in creative tasks.
