@@ -43,7 +43,7 @@ title: "Word2vec Intro"
 </div>
 
 ## Step 2: Adding Basic Sound
-Now let's add our first synthesizer to create sound when words appear. We'll start with just a simple melody synth.UntitledClick to open codeIn this second step, we've added:
+Now let's add our first synthesizer to create sound when words appear. We'll start with just a simple melody synth. to open codeIn this second step, we've added:
 
 - A basic synthesizer using Tone.js
 - A mapping between word similarity and musical notes
