@@ -58,6 +58,7 @@ author: ""
 ## Tuesday 
 
 - **Topics**: Generative poetry and interactive systems using word2vec.
+  - Start working on your extensions to the Sonic Poetry Generator.
 - **Key Concepts**: Value and epistemic goods in creativity.
 - **Activity**: Students evaluate the epistemic value of their outputs.
 
