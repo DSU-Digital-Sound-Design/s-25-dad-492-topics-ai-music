@@ -49,7 +49,7 @@ author: ""
 - **Assignment**: Etude 1 (word2vec Poetry).
 - [Intro to word2vec](../lectures/week-2/word2vec-intro)
 - Mapping word embeddings to musical features
-- **Etude due 1/31** - [Etude 1: Sonic Poetry Generator](../projects#etude-1-sonic-poetry-generator)
+- **Etude due 2/4** - [Etude 1: Sonic Poetry Generator](../projects#etude-1-sonic-poetry-generator)
   
 > **For next class** read Brainard’s *Section 2.2* (Novelty) and *Section 2.3* (Value).
 
@@ -58,12 +58,21 @@ author: ""
 ## Tuesday 
 
 - **Topics**: Generative poetry and interactive systems using word2vec.
-  - Start working on your extensions to the Sonic Poetry Generator.
-- **Key Concepts**: Value and epistemic goods in creativity.
-- **Activity**: Students evaluate the epistemic value of their outputs.
+- Helpful p5.js functions 
+  - [map](https://p5js.org/reference/p5/map/)
+  - [ceil](https://p5js.org/reference/p5/ceil)
+  - [floor](https://p5js.org/reference/p5/floor)
+  - [random](https://p5js.org/reference/p5/random)
+  - [text](https://p5js.org/reference/p5/text)
+- Continue with 
+  - [Intro to word2vec](../lectures/week-2/word2vec-intro)
+- Show instructions for [Etude 1: Sonic Poetry Generator](../projects#etude-1-sonic-poetry-generator)
 
 ## Thursday
 
+- Demoing Additions to Etude 1
+  - Timbre Evolution
+  - Musical Intervals
 - **Assignment**: Reflection: "What is creativity in AI systems?"
 - **Etude 1 Due**: 1/31.
   
