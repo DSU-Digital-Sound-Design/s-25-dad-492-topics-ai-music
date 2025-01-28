@@ -58,6 +58,7 @@ author: ""
 ## Tuesday 
 
 - **Topics**: Generative poetry and interactive systems using word2vec.
+- [Tone.js Presets](https://www.guitarland.com/MusicTheoryWithToneJS/Presets-gh-pages/)
 - Helpful p5.js functions 
   - [map](https://p5js.org/reference/p5/map/)
   - [ceil](https://p5js.org/reference/p5/ceil)
