@@ -74,9 +74,11 @@ author: ""
 - Demoing Additions to Etude 1
   - Timbre Evolution
   - Musical Intervals
-- **Assignment**: Reflection: "What is creativity in AI systems?"
+  - Carter demo? 
+- Etude 1 Workshop
 - **Etude 1 Due**: 1/31.
   
+<!-- - **Assignment**: Reflection: "What is creativity in AI systems?" -->
 <!--   
 ## **Week 4 (2/3): Machine Learning for Music**
 - **Topics**: MIR techniques (k-NN, SVM, HMM) and applications in feature extraction and classification.

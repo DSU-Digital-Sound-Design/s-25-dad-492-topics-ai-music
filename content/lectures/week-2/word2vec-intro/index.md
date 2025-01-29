@@ -15,6 +15,7 @@ title: "Word2vec Intro"
   - [tone.js](https://tonejs.github.io/)
   - [tone.js - API](https://tonejs.github.io/docs/15.0.4/index.html)
   - [Presets](https://www.guitarland.com/MusicTheoryWithToneJS/Presets-gh-pages/)
+  - [Oscillator type](https://tonejs.github.io/docs/15.0.4/classes/OmniOscillator.html#type)
 - word2vec
   - [Word2vec](https://en.wikipedia.org/wiki/Word2vec) - Wikipedia
   - [ml5.js word2vec](https://archive-docs.ml5js.org/#/reference/word2vec) - ml5.js Word2Vec
