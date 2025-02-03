@@ -79,14 +79,21 @@ author: ""
 - **Etude 1 Due**: 1/31.
   
 <!-- - **Assignment**: Reflection: "What is creativity in AI systems?" -->
-<!--   
-## **Week 4 (2/3): Machine Learning for Music**
+# Week 4 (2/3): Machine Learning for Music
+
+## Tusday
+
+- A few students show their etude 1 projects
 - **Topics**: MIR techniques (k-NN, SVM, HMM) and applications in feature extraction and classification.
-- **Key Concepts**: Agency in creative tasks.
+  - [slides](../lectures/week-4/machine-learning-for-music/)
 - **Activity**: Discuss whether classifiers exhibit intentionality or reflect human agency.
-- **Reading**: Brainard’s *Section 2.4* (Agency).
-- **Assignment**: Etude 2 (Genre Classifier and Audio Mosaic).
+
+## Thursday 
+
+<!-- - **Reading**: Brainard’s *Section 2.4* (Agency).
+- **Assignment**: Etude 2 (Genre Classifier and Audio Mosaic). -->
   
+<!--   
 ## **Week 5 (2/10): Audio Feature Extraction and Classification**
 - **Topics**: Extracting timbre, pitch, and rhythm features; training classifiers for genre identification.
 - **Key Concepts**: Agency and ethical implications of automated systems.
