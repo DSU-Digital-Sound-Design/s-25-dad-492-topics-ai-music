@@ -81,14 +81,16 @@ author: ""
 <!-- - **Assignment**: Reflection: "What is creativity in AI systems?" -->
 # Week 4 (2/3): Machine Learning for Music
 
-## Tusday
+## Tuesday
 
 - A few students show their etude 1 projects
 - **Topics**: MIR techniques (k-NN, SVM, HMM) and applications in feature extraction and classification.
   - [slides](../lectures/week-4/machine-learning-for-music/)
-- **Activity**: Discuss whether classifiers exhibit intentionality or reflect human agency.
 
 ## Thursday 
+
+- Finish MIR techniques discussion 
+- Start on Etude 2 - Genre Classifier and Audio Mosaic
 
 <!-- - **Reading**: Brainard’s *Section 2.4* (Agency).
 - **Assignment**: Etude 2 (Genre Classifier and Audio Mosaic). -->
