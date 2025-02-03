@@ -109,6 +109,8 @@ Low-level features are computed directly from the raw audio signal and describe 
 - Harmony features include chroma representation of tonal structure  
 - Rhythm features analyze timing, tempo, and meter patterns  
 
+> ex: [Real-time pitch extraction](https://essentiajs-pitchmelodia.netlify.app/)
+
 {{% note %}}  
 High-level features provide a more intuitive way to describe music, often aligning with human perception. Melody descriptors rely on pitch estimation techniques to identify dominant notes. Harmony is analyzed using chroma features, which capture tonal structures like chords and key changes. Rhythm features help characterize temporal aspects, including tempo and beat structure, contributing to music classification and retrieval.  
 {{%/ note %}}  
@@ -139,6 +141,10 @@ Signal processing plays a crucial role in Music Information Retrieval (MIR) by e
 - Identifies transients and note onsets through waveform analysis  
 - Useful for loudness, attack time, and rhythmic structure analysis  
 
+> ex: [Essentia.js](https://mtg.github.io/essentia.js/)
+
+> ex: [Mel-spectrogram](https://essentiajs-melspectrogram.netlify.app/)
+
 {{% note %}}  
 Time-domain analysis captures how an audio signal evolves over time by representing amplitude changes. It is particularly useful for detecting note onsets and transients, which help in rhythm and tempo estimation. Descriptors like Zero Crossing Rate and RMS energy provide insights into the noisiness and intensity of a sound.  
 {{%/ note %}}  
@@ -150,6 +156,8 @@ Time-domain analysis captures how an audio signal evolves over time by represent
 - Short-Time Fourier Transform (STFT) provides time-varying spectral analysis  
 - Extracts features like spectral moments, MFCCs, and chroma features  
 - Essential for timbre description, pitch estimation, and tonality analysis  
+
+> ex: [Chroma](https://mtg.github.io/essentia.js/examples/demos/hpcp-chroma-rt/)
 
 {{% note %}}  
 Frequency-domain analysis transforms an audio signal from the time domain to its spectral representation, revealing important characteristics like timbre and pitch. The Short-Time Fourier Transform (STFT) allows tracking frequency changes over time, forming the basis of spectrogram analysis. Features like MFCCs are widely used in music classification and retrieval, while chroma features help analyze harmonic structures.  
@@ -182,6 +190,8 @@ Musical structure analysis is a fundamental task in Music Information Retrieval 
 - Used in speech/music separation, note identification, and structure analysis  
 - Methods include model-free (feature change detection) and model-based (trained probabilistic models)  
 - Related to onset detection, novelty detection, and music structure analysis  
+
+> ex: [Audio Slicer](https://mtg.github.io/essentia.js/examples/demos/onsets/public/)
 
 {{% note %}}  
 Segmentation plays a crucial role in MIR by identifying meaningful boundaries in audio signals. It helps differentiate between speech and music, locate instrumental sections, and identify individual notes. Model-free methods rely on detecting feature changes, while model-based approaches use trained probabilistic models like Hidden Markov Models and Gaussian Mixture Models. Segmentation is closely linked to onset detection, which finds new musical events, and music structure analysis, which identifies recurring patterns in a piece.  
@@ -256,6 +266,8 @@ Music retrieval systems enable users to search, browse, and discover music track
 - Commercial systems (e.g., SoundHound) match queries to a database  
 
 > ex: [SoundHound Music](https://www.soundhound.com/soundhound/) 
+> free ex: [Real-time music autotagging](https://mtg.github.io/essentia.js/examples/demos/autotagging-rt/) 
+
 {{% note %}}  
 Query-by-example allows users to find music by providing an audio sample. The system compares the sample to a music database using similarity measures, either locally (within a song) or globally (between different tracks). A variation of this method is query-by-humming, where users hum or sing a melody to retrieve matching songs. Systems like SoundHound and MUSART have been developed to facilitate such retrieval.  
 {{%/ note %}}  
@@ -268,7 +280,7 @@ Query-by-example allows users to find music by providing an audio sample. The sy
 - Tag-based retrieval assigns descriptive labels (e.g., mood, genre)  
 - Lyric search models the contextual and multimodal aspects of music  
 
-> ex: 
+> ex: Spotify, Apple Music, etc.
 
 {{% note %}}  
 Query-by-text enables users to search for music based on descriptive terms rather than audio content. Keyword searches rely on metadata like tempo, genre, or mood, while lyric search focuses on song lyrics to model musical context. Semantic search engines, such as SearchSounds and Gedoodle, enhance results by integrating user-generated content, metadata, and audio-based features. These approaches complement query-by-example by leveraging textual and contextual information.  
@@ -318,6 +330,8 @@ Content-based filtering suggests music by analyzing its characteristics, such as
 - **Mood classification** analyzes emotional content using semantic labels  
 - Machine learning models (e.g., SVM, kNN) improve classification accuracy  
 
+> ex [Genre Classifier](https://essentia.upf.edu/essentiajs-discogs/)
+> ex: [Mood Classifier](https://mtg.github.io/essentia.js/examples/demos/mood-classifiers/)
 
 {{% note %}}  
 Music classification organizes music into categories such as genre and mood using machine learning. Genre classification relies on content-based features like rhythm and harmony, but accuracy varies due to genre subjectivity. Mood classification identifies emotional content using features like melody and mode, often employing machine learning techniques like Support Vector Machines (SVM). These classifications enhance retrieval and recommendation systems.  
@@ -340,10 +354,12 @@ Music clustering groups similar tracks based on extracted features or user behav
 
 ## Music Creation Tools 
  
-- AI-driven systems generate new music compositions  
+- AI-driven systems generate new music compositions 
+  - Udio - AI music composer
+  - Jukedeck - AI music creation tool
 - **Recurrent Neural Networks (RNNs)** and **Generative Adversarial Networks (GANs)** used for music generation  
 - **Audio mosaicing** substitutes musical fragments to create novel pieces  
-- MIR techniques extract and analyze music descriptors for generation  
+  - [PointZero: an Introduction to NMF-Inspired Audio Mosaicing in Max](https://youtu.be/I672P_rdNZs?si=RlQBlyX1HR7Xx2vA)
 
 {{% note %}}  
 Generative models leverage AI to create new music by learning from existing compositions. Techniques like RNNs and GANs generate melodies, harmonies, or even entire pieces. Audio mosaicing is another application where a target track is analyzed, and its fragments are replaced with similar ones, producing a creative remix. These methods rely on MIR techniques to extract and manipulate musical features effectively.  
@@ -351,10 +367,12 @@ Generative models leverage AI to create new music by learning from existing comp
 
 ---  
 
-## **Assistive Tools & MIR Applications**  
-- Assistive tools help musicians with composition and production  
+## **Music browsing/playlists**  
+
 - MIR enables **automatic playlist generation** and **music browsing interfaces**  
-- Systems like **nepTune** and **Songrium** enhance music exploration  
+  - [Songrium](https://songrium.jp/) - AI-driven music recommendation platform
+  - [Every noise at once](https://everynoise.com/) - Music genre map visualization
+    - [Every noise research](https://everynoise.com/research.cgi?mode=genre&genresource=everynoise) 
 - Personalized, context-aware systems adapt recommendations based on user and environment  
 
 {{% note %}}  
