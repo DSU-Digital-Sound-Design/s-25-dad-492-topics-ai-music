@@ -95,7 +95,7 @@ Music feature extraction is a key process in MIR, enabling the automatic charact
 - Examples: Zero Crossing Rate, MFCCs, spectral moments  
 - Used for timbre representation and audio fingerprinting  
 
-> See: [Freesound API](https://freesound.org/docs/api/analysis_docs.html)
+> See: [Freesound API](https://freesound.org/docs/api/analysis_docs.html), [Freesound Timbral Search](https://andyp103.github.io/FreesoundTimbralSearch/)
 
 {{% note %}}  
 Low-level features are computed directly from the raw audio signal and describe its fundamental properties. For instance, the Zero Crossing Rate indicates how frequently a signal crosses zero, helping to identify percussive or noisy sounds. Mel-Frequency Cepstrum Coefficients (MFCCs) provide a compact spectral representation and are widely used in speech and music analysis. These features serve as building blocks for more complex descriptors and applications like audio fingerprinting.  
@@ -347,7 +347,7 @@ Music classification organizes music into categories such as genre and mood usin
 
 
 {{% note %}}  
-Music clustering groups similar tracks based on extracted features or user behavior. Similarity-based clustering compares feature vectors to identify related pieces, aiding in content visualization tools like nepTune. User-generated clustering relies on tags, playlists, and collaborative filtering to enhance personalization. These approaches are crucial for structuring large music collections and improving search and recommendation accuracy.  
+Music clustering groups similar tracks based on extracted features or user behavior. Similarity-based clustering compares feature vectors to identify related pieces, aiding in content visualization tools like ___. User-generated clustering relies on tags, playlists, and collaborative filtering to enhance personalization. These approaches are crucial for structuring large music collections and improving search and recommendation accuracy.  
 {{%/ note %}}  
 
 ---
@@ -355,11 +355,12 @@ Music clustering groups similar tracks based on extracted features or user behav
 ## Music Creation Tools 
  
 - AI-driven systems generate new music compositions 
-  - Udio - AI music composer
-  - Jukedeck - AI music creation tool
+  - Udio, Jukedeck
 - **Recurrent Neural Networks (RNNs)** and **Generative Adversarial Networks (GANs)** used for music generation  
 - **Audio mosaicing** substitutes musical fragments to create novel pieces  
   - [PointZero: an Introduction to NMF-Inspired Audio Mosaicing in Max](https://youtu.be/I672P_rdNZs?si=RlQBlyX1HR7Xx2vA)
+  - [AsumeAudio Metaphor
+Generative Soundscape Systems](https://digitalmedia.ok.ubc.ca/projects/aume_v2/)
 
 {{% note %}}  
 Generative models leverage AI to create new music by learning from existing compositions. Techniques like RNNs and GANs generate melodies, harmonies, or even entire pieces. Audio mosaicing is another application where a target track is analyzed, and its fragments are replaced with similar ones, producing a creative remix. These methods rely on MIR techniques to extract and manipulate musical features effectively.  
@@ -373,8 +374,12 @@ Generative models leverage AI to create new music by learning from existing comp
   - [Songrium](https://songrium.jp/) - AI-driven music recommendation platform
   - [Every noise at once](https://everynoise.com/) - Music genre map visualization
     - [Every noise research](https://everynoise.com/research.cgi?mode=genre&genresource=everynoise) 
-- Personalized, context-aware systems adapt recommendations based on user and environment  
+
 
 {{% note %}}  
 MIR techniques extend beyond generation to assistive tools that support musicians in composition. These tools analyze musical content to aid in structuring and refining compositions. Additionally, MIR is used in automatic playlist generation, music visualization, and interactive browsing interfaces like nepTune. Context-aware systems enhance personalization by considering user preferences, location, and mood, enriching the overall listening and creation experience.  
 {{%/ note %}}  
+
+---
+
+> More Projects at [Freesound Labs](https://labs.freesound.org/)
