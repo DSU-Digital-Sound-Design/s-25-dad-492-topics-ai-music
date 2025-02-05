@@ -90,7 +90,8 @@ author: ""
 ## Thursday 
 
 - Finish MIR techniques discussion 
-- Start on Etude 2 - Genre Classifier and Audio Mosaic
+- Start on Etude 2 - [Audio Mosaic](../projects#etude-2-audio-mosaic)
+  - [Freesound API](../lectures/week-4/freesound-api)
 
 <!-- - **Reading**: Brainard’s *Section 2.4* (Agency).
 - **Assignment**: Etude 2 (Genre Classifier and Audio Mosaic). -->
