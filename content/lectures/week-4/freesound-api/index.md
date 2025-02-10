@@ -46,3 +46,118 @@ Finally, we can create a sequence out of the similar sounds.
     style="height: 100%; width: 100%; border: 0;">
   </iframe>
 </div>
+
+### User Story
+
+- **User clicks a button** → Requests a **random sound** from Freesound.
+- **Sound is loaded** into a Tone.js **Player**.
+- **User plays the sound**, which is stored in a **Map** for reuse.
+- **User can stop the sound** or request **similar sounds**.
+
+### Key Sections
+
+| **Concept**            | **Corresponding Code Section** | **Explanation** |
+|------------------------|--------------------------------|----------------|
+| **Setup & Initialization** | `setup()` | Sets up event listeners and loads an initial sound. |
+| **Fetching Sounds** | `getRandomSound()` | Queries Freesound API for a random sound and loads it. |
+| **Creating a Sound Player** | `createTonePlayer()` | Uses Tone.js to load and manage sounds. |
+| **Playing and Stopping Sounds** | `playSound()` and `stopSound()` | Plays or stops the currently loaded sound. |
+| **Finding Similar Sounds** | `getSimilarSounds()` | Searches for and loads sounds similar to the current one. |
+
+---
+
+### Interactive Debugging with Console Logs
+
+Add console logs to show the **sound fetching process**:
+
+```javascript
+console.log("Fetching a random sound:", query);
+console.log("Loaded sound object:", sound);
+console.log("Playing sound:", id);
+console.log("Stopping current sound");
+```
+This helps you **see what’s happening step by step**.
+
+---
+
+###   Sound Design Modifications
+
+Let's make a few modifications to the sound design:
+
+#### **Task 1: Change the Sound Categories**
+
+Modify this line in `getRandomSound()`:
+```javascript
+const queries = ["dog", "cat", "water", "wind", "fire", "music", "bird", "rain"];
+```
+
+**Challenge:** Replace with different sound categories, such as:
+```javascript
+const queries = ["bells", "guitar", "thunder", "clapping", "footsteps"];
+```
+
+Then test how the changes affect the results.
+
+---
+
+#### **Task 2: Modify Playback Behavior**
+
+Find this part of the `createTonePlayer()` function:
+
+```javascript
+const player = new Tone.Player({
+  url: url,
+  autostart: false,
+}).toDestination();
+```
+
+**Challenge:** Modify playback settings by adding effects:
+```javascript
+const reverb = new Tone.Reverb().toDestination();
+const player = new Tone.Player({
+  url: url,
+  autostart: false,
+}).connect(reverb);
+```
+
+> **How does reverb change the sound?**
+
+---
+
+### **Task 3: Add a Loop Button**
+Add a **looping feature** to the player.
+```javascript
+const loopButton = createButton("Loop");
+loopButton.mousePressed(() => {
+  if (currentPlayer) {
+    currentPlayer.loop = !currentPlayer.loop;
+    loopButton.html(currentPlayer.loop ? "Stop Loop" : "Loop");
+  }
+});
+```
+**Challenge:** Add this to the `container` so it appears in the UI.
+
+---
+
+### **Task 4: Change the Sound Playback Speed**
+Modify `playSound()` to alter the playback speed:
+```javascript
+currentPlayer.playbackRate = random(0.5, 2);
+```
+> How does speed affect pitch?
+
+---
+
+## **5. Group Challenge: Customizing Sound Effects**
+
+Now, lets try a group challenge: 
+
+See: [Player](https://tonejs.github.io/docs/15.0.4/classes/Player.html)
+
+- Group 1: Add a **delay effect** using `Tone.FeedbackDelay()`.
+- Group 2: Make sounds **fade in and out** using the built in envelope on the `Tone.Player`.
+- Group 3: Play **multiple sounds at once** in a sequence.
+- Group 4: Alter the `Tone.Player` start offset to play a different part of the sample. 
+
+Each group presents their changes and demonstrates the effect.
+

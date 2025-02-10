@@ -90,20 +90,23 @@ author: ""
 ## Thursday 
 
 - Finish MIR techniques discussion 
-- Start on Etude 2 - [Audio Mosaic](../projects#etude-2-audio-mosaic)
-  - [Freesound API](../lectures/week-4/freesound-api)
 
-<!-- - **Reading**: Brainard’s *Section 2.4* (Agency).
+<!-- 
+- **Reading**: Brainard’s *Section 2.4* (Agency).
 - **Assignment**: Etude 2 (Genre Classifier and Audio Mosaic). -->
   
-<!--   
-## **Week 5 (2/10): Audio Feature Extraction and Classification**
-- **Topics**: Extracting timbre, pitch, and rhythm features; training classifiers for genre identification.
+# Week 5 (2/10): Audio Feature Extraction
+
+- [Freesound API](../lectures/week-4/freesound-api)
+- Start on Etude 2 - [Audio Mosaic](../projects#etude-2-audio-mosaic)
+
+<!-- - **Topics**: Extracting timbre, pitch, and rhythm features; training classifiers for genre identification.
 - **Key Concepts**: Agency and ethical implications of automated systems.
 - **Activity**: Debate: “Does automation devalue human musicianship?”
-- **Reading**: Supplemental article on copyright and AI.
+- **Reading**: Supplemental article on copyright and AI. -->
   
 
+<!--   
 ## **Week 6 (2/17): Creative Audio Manipulation**
 - **Topics**: Audio mosaics and collage-making techniques.
 - **Key Concepts**: Curiosity as a condition for creativity; copyright and ownership issues.
