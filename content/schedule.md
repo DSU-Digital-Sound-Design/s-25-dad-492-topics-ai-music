@@ -97,6 +97,8 @@ author: ""
   
 # Week 5 (2/10): Audio Feature Extraction
 
+## Tuesday
+
 - [Freesound API](../lectures/week-4/freesound-api)
 - Start on Etude 2 - [Audio Mosaic](../projects#etude-2-audio-mosaic)
 
