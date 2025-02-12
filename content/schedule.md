@@ -100,7 +100,13 @@ author: ""
 ## Tuesday
 
 - [Freesound API](../lectures/week-4/freesound-api)
-- Start on Etude 2 - [Audio Mosaic](../projects#etude-2-audio-mosaic)
+
+## Thursday
+
+- [Text and Content Search](../lectures/week-5/freesound-api-search)
+- Check out Etude 2 - [Audio Mosaic](../projects#etude-2---audio-mosaic)
+  - Due 2/25 before class starts
+
 
 <!-- - **Topics**: Extracting timbre, pitch, and rhythm features; training classifiers for genre identification.
 - **Key Concepts**: Agency and ethical implications of automated systems.
@@ -108,14 +114,20 @@ author: ""
 - **Reading**: Supplemental article on copyright and AI. -->
   
 
+# Week 6 (2/17): Creative Audio Manipulation
+
+## Tuesday
+
+- implementing the audio mosaic
+- More examples of sequencing with Tone.js 
+  - see: [Total Serialism](https://github.com/tmhglnd/total-serialism)
+
+## Thursday
+
+- implementing the audio mosaic
+- Sharing in progress work?
+
 <!--   
-## **Week 6 (2/17): Creative Audio Manipulation**
-- **Topics**: Audio mosaics and collage-making techniques.
-- **Key Concepts**: Curiosity as a condition for creativity; copyright and ownership issues.
-- **Activity**: Discuss ethical challenges in AI-generated works.
-- **Etude 2 Due**: 2/16.
-- **Class Presentations**: Mosaic outputs.
-  
 ## **Week 7 (2/24): Interactive Machine Learning and HCI**
 - **Topics**: Wekinator and humans-in-the-loop systems.
 - **Key Concepts**: Human agency in collaborative systems; impact of AI on musicians.

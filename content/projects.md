@@ -77,134 +77,149 @@ Implementation guidance:
    - Your musical decision-making process
 3. A short video demonstration with audio 
    
-# Project 2 
-<!-- 
-### **Expanding the Audio Mosaic App with MIR Principles and Advanced Sound Processing**  
+# Etude 2 - Audio Mosaic
 
-#### **Objective**  
-In this project, you will enhance the existing Audio Mosaic App by incorporating new techniques for querying and processing sounds. You will apply principles from Music Information Retrieval (MIR) to retrieve relevant sounds from the Freesound API and use advanced Tone.js functionalities to manipulate them.  
+## Objective  
+In this project, you will extend the Audio Mosaic App by incorporating sound selection and playback techniques using Tone.js. You will modify how sounds are retrieved from the Freesound API and experiment with different playback event types, focusing on creative sound manipulation.
 
-Your sound selection should be based on meaningful features such as spectral centroid, pitch, tempo, duration, and loudness rather than random selection alone. You will also incorporate new methods of sound processing in Tone.js to expand musical creativity.
+Instead of selecting sounds randomly, you will extract low-level features from an initial sound and use them to retrieve similar sounds dynamically. You will also implement different playback and processing methods using Tone.js and p5.js.
 
 ---
 
-## **Part 1: Understanding the Base Project**  
-Before modifying the app, review the existing Audio Mosaic App, which:  
-- Uses the Freesound API to retrieve random and similar sounds  
-- Plays sounds using Tone.js  
-- Includes a basic sequence-based playback system  
+## Understanding the Base Project  
 
-Explore the Freesound API documentation to understand how sound features can be used to retrieve meaningful audio results instead of selecting sounds arbitrarily.
+[Starter Project](https://glitch.com/~5-content-search-based-on-analysis)
 
----
+The base project already includes a search-and-playback system using Freesound API and Tone.js. Below is a breakdown of how it works and what you can modify:
 
-## **Part 2: Expanding Creativity – Choose One Path**  
-Select one of the following variations, each introducing a new querying strategy and a unique sound processing technique.
+### How the Base App Works  
 
-### **Option 1: Feature-Based Sound Retrieval with Generative Processing**  
-This approach focuses on automated composition by retrieving and layering sounds based on MIR features such as spectral centroid, loudness, and pitch. Your system will continuously evolve over time without direct user input, creating a dynamic generative soundscape.
+**Retrieves an Initial Sound:**
+   - Searches Freesound based on an instrument tag and duration constraint.  
+   - Extracts MIR features from the selected sound:  
+     - Spectral Centroid (brightness)  
+     - Pitch  
+     - Spectral Spread (harmonic distribution)  
+     - Dissonance  
+   - Displays the sound’s metadata and provides basic playback controls.  
 
-#### **Freesound API Queries**  
-Modify the existing query system to retrieve sounds based on specific MIR features:  
-- **Timbre selection:** Use spectral centroid to control whether sounds are bright or dark.  
-  - Example query: `"spectral_centroid:[2000 TO 10000]"` for bright sounds.  
-- **Melodic or atonal elements:** Retrieve sounds based on pitch salience.  
-  - Example query: `"pitch_salience:[0.5 TO 1]"`.  
-- **Dynamic contrast:** Retrieve sounds based on loudness.  
-  - Example query: `"loudness:[-40 TO -10]"`.  
+**Finds Similar Sounds Based on Features:**  
+   - Uses content-based search to retrieve sonically similar sounds.  
+   - The search is based on extracted MIR descriptors (e.g., spectral centroid, pitch, etc.).  
+   - Displays a list of similar sounds with playback controls.  
 
-#### **Tone.js Implementation**  
-- Use **Tone.Loop** or **Tone.Sequence** to generate an evolving soundscape.  
-- Apply **granular synthesis** by slicing samples into small segments.  
-- Randomize **filtering, reverb, and panning** to add movement.  
-- Introduce **automated transformations** over time, making the soundscape unpredictable.  
-
-Your final system should generate an evolving composition where sounds shift, blend, and transform based on their characteristics.
+ **Manages Audio Playback:**
+   - Uses Tone.js to create and manage multiple Tone.Player instances.  
+   - Implements play and stop functionality for each retrieved sound.  
+   - Uses a map-based structure to track active players.  
 
 ---
 
-### **Option 2: Sound Collage with Dynamic Effects and Pitch Manipulation**  
-This approach allows you to build an interactive sound collage, where you select, arrange, and modify sounds manually. Unlike the generative system, this version lets you actively shape the composition by applying effects and pitch alterations.
+## Your Task: Expanding the Search Process  
 
-#### **Freesound API Queries**  
-Modify the existing query system to retrieve sounds based on categorical or descriptive tags:  
-- **Instrument selection:** Search for specific sound types such as percussion, piano, or strings.  
-  - Example query: `"tag:drums OR tag:piano OR tag:strings"`.  
-- **Tonal characteristics:** Select sounds based on descriptions such as rough, smooth, or metallic.  
-  - Example query: `"tag:metallic OR tag:soft OR tag:airy"`.  
-- **Mood-based selection:** Retrieve sounds with expressive descriptors such as dark, ethereal, or glitch.  
-  - Example query: `"tag:dark OR tag:ethereal OR tag:glitch"`.  
+### Step 1: Experiment with Feature Extraction  
+The base project retrieves a fixed set of features from the first sound (spectral centroid, pitch, spectral spread, and dissonance). You must experiment with additional features to refine the search for similar sounds.  
 
-#### **Tone.js Implementation**  
-- Implement **real-time pitch shifting** using **Tone.PitchShift**.  
-- Allow users to **spatialize sounds** using **Tone.Panner3D**.  
-- Integrate **reverb and filtering** to create depth.  
-- Build a **drag-and-drop interface** where users can arrange sounds in a timeline.  
+Freesound API Analysis Documentation:  
+> [https://freesound.org/docs/api/analysis_docs.html](https://freesound.org/docs/api/analysis_docs.html)  
 
-Your final system should allow users to shape a sound collage interactively, adjusting pitch, spatialization, and effects in real time.
+Some useful features you could extract:  
+- MFCCs (Mel-Frequency Cepstral Coefficients): Timbre descriptors useful for classifying sound types.  
+- Zero Crossing Rate: Determines whether a sound is percussive or tonal.  
+- Spectral Flatness: Measures noisiness vs. tonal structure.  
+- Rhythm Descriptors: Such as BPM or onset rate for rhythmic sounds.  
+- Envelope Shape: How a sound evolves over time (attack, sustain, decay).  
+
+Modify the `handleFirstSearchResult()` function to extract additional features and log them to the console. Once you find features that meaningfully differentiate sounds, use them to improve the content-based search query.
 
 ---
 
-### **Option 3: Beat Slicing and Rhythmic Manipulation with Adaptive Querying**  
-This approach focuses on rhythm by retrieving percussive sounds and manipulating them using beat slicing and sequencing techniques. Instead of playing entire samples, you will divide them into rhythmic segments and reconstruct them dynamically.
+### Step 2: Modify the Similar Sound Search  
+Once you've experimented with extracting features, modify `searchSimilarSounds()` to use new feature combinations for retrieving similar sounds.  
 
-#### **Freesound API Queries**  
-Modify the existing query system to retrieve rhythmically relevant sounds:  
-- **Tempo matching:** Retrieve sounds that match a specific BPM.  
-  - Example query: `"bpm:[80 TO 120]"`.  
-- **Percussive content:** Find rhythmic loops or drum samples.  
-  - Example query: `"tag:drums OR tag:percussion OR tag:beat"`.  
-- **Transient density:** Select sounds with multiple rhythmic events that can be sliced.  
-  - Example query: `"note_dominant:[0 TO 100]"`.  
-
-#### **Tone.js Implementation**  
-- Implement **beat slicing** to divide sounds into equal segments.  
-- Use **Tone.Loop** or **Tone.Sequence** to arrange sliced sounds into new patterns.  
-- Allow users to **tap a tempo**, adjusting the playback BPM dynamically.  
-- Apply **filters, distortion, and effects** to enhance rhythmic textures.  
-
-Your final system should allow users to create new rhythmic structures by selecting, slicing, and rearranging percussive sounds.
+#### Example Adjustments to the Content-Based Search Query:  
+- Retrieve tonally similar sounds:  
+  ```js
+  const target = `.lowlevel.mfcc.mean:${mfccMean}+.lowlevel.spectral_flatness.mean:${flatnessMean}`;
+  ```
+- Retrieve rhythmically similar sounds:  
+  ```js
+  const target = `.lowlevel.rhythm.bpm.mean:${bpm}+.lowlevel.onset_rate.mean:${onsetRate}`;
+  ```
+- Retrieve percussive sounds with similar spectral characteristics:  
+  ```js
+  const target = `.lowlevel.spectral_flux.mean:${fluxMean}+.lowlevel.zero_crossing_rate.mean:${zcr}`;
+  ```
 
 ---
 
-## **Part 3: Implementation & Submission**  
+## Step 3: Implement One of Three Playback and Sound Processing Variations  
 
-### **Deliverables**  
-1. **Feature-Based Query System (20%)**  
-   - Modify the Freesound API query system to retrieve sounds based on meaningful features.  
-   - Clearly document how your query parameters relate to MIR principles.  
+Once you have modified the search behavior, implement one of the following playback variations. Each variation explores a different Tone.js event type for triggering and manipulating sounds while incorporating p5.js for interactive control.
 
-2. **Code Implementation (40%)**  
-   - Successfully integrate the selected modification into the Audio Mosaic App.  
-   - Ensure that the new system functions correctly and efficiently.  
-
-3. **Creative Demonstration (20%)**  
-   - Record a short video or audio demonstration (3-5 minutes) showcasing your modified app in action.  
-   - Explain how your enhancements improve the creative possibilities of the project.  
-
-4. **Reflection & Analysis (20%)**  
-   - Write a 1-2 page reflection discussing:  
-     - The MIR techniques used in your project.  
-     - The musical impact of your modifications.  
-     - The challenges you encountered and how you addressed them.  
+This is not an exhaustive list of possibilities; feel free to combine elements from different variations or propose your own creative approach. You don't need to implement every feature listed in the variations; focus on the ones that align with your creative vision.
 
 ---
 
-## **Evaluation Criteria**  
+### Option 1: Sequenced Playback with Sound Feature Modulation  
+This variation transforms retrieved sounds into a pattern-based composition, where playback is triggered at regular intervals using Tone.js sequencing tools.
+
+#### Implementation Steps:  
+- Use `Tone.Sequence` to create a rhythmic or evolving playback sequence.  
+- Modify playback order based on spectral centroid or another extracted feature.  
+- Apply LFOs (`Tone.LFO`) to automate pitch, filter sweeps, or volume over time.  
+- Use effects like reverb (`Tone.Reverb`), delay (`Tone.FeedbackDelay`), or distortion (`Tone.Distortion`) to shape the sound.  
+
+#### Example Use Case:  
+An evolving ambient soundscape where retrieved sounds play in a repeating pattern, shifting in timbre and position over time.
+
+---
+
+### Option 2: Performance-Based Triggering with Keyboard Input  
+This variation allows users to trigger and manipulate sounds in real time using p5.js keyboard input functions.
+
+#### Implementation Steps:  
+- Use p5.js `keyPressed()` to trigger different retrieved sounds when a key is pressed. 
+  - see: [p5.js Keyboard Input](https://p5js.org/reference/p5/keyPressed/) 
+- Implement `Tone.Player` to load and play sounds dynamically.  
+- Allow real-time pitch shifting (`Tone.PitchShift`) or filtering (`Tone.Filter`) based on key input.  
+- Map keys to different effects (e.g., pressing ‘A’ applies a delay, ‘B’ triggers a filter sweep).  
+
+
+#### Example Use Case:  
+An interactive sampler where retrieved sounds are played and manipulated based on keyboard input.
+
+---
+
+### Option 3: Interactive Layered Textures with Randomized Playback  
+This variation focuses on asynchronous, layered playback, where retrieved sounds are triggered at varying intervals to create a more organic composition.
+
+#### Implementation Steps:  
+- Use randomized scheduling with `setTimeout()` or `Tone.Transport.schedule`.  
+- Layer multiple sounds with slight timing offsets for a shifting texture.  
+- Introduce probability-based triggering, where some sounds play more frequently than others.  
+- Apply granular processing (`Tone.GrainPlayer`) and spatialization (`Tone.Panner3D`) for movement.  
+
+#### Example Use Case:  
+A constantly shifting collage of retrieved sounds, with each playback slightly different, creating an unpredictable yet cohesive texture.
+
+---
+
+## Evaluation Criteria (50 Points Total)  
 
 | **Criteria**               | **Points** | **Description** |
 |----------------------------|------------|------------------------------------------------|
-| Feature-Based Querying     | 20         | Effectively retrieves sounds using meaningful MIR-based parameters. |
-| Code Implementation        | 40         | Functional, well-structured code with clear documentation. |
-| Creative Demonstration     | 20         | Demonstrates the impact of the new features through a video or audio example. |
-| Reflection & Analysis      | 20         | Thoughtful discussion of MIR principles and musical creativity. |
+| Feature-Based Querying     | 10         | Successfully extracts and uses additional MIR features to refine the search process. |
+| Code Implementation        | 20         | Functional, well-structured code with clear documentation. |
+| Creative Demonstration     | 10         | Effectively showcases the new system through a vide screen recording. |
+| Reflection & Analysis      | 10         | Thoughtful discussion of MIR principles and musical creativity. |
 
 ---
 
-## **Bonus Challenge**  
-If you combine two or more of the options into a single project, you can earn extra credit by demonstrating a higher level of complexity and creativity.
-
----
-
-## **Conclusion**  
-This project challenges you to apply MIR principles to real-world music technology development while expanding the creative potential of the Audio Mosaic App. By exploring feature-based sound retrieval and advanced Tone.js processing, you will gain a deeper understanding of algorithmic composition, sound design, and interactive music systems. -->
+## Submission Requirements
+- Your code with clear comments explaining audio parameters
+- A brief write-up explaining:
+   - Which extension you chose and why
+   - How your sound design relates to word relationships
+   - Your musical decision-making process
+- A short video demonstration with audio 
