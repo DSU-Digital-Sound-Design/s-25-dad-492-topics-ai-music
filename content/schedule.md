@@ -118,6 +118,7 @@ author: ""
 
 ## Tuesday
 
+
 - implementing the audio mosaic
 - More examples of sequencing with Tone.js 
   - see: [Total Serialism](https://github.com/tmhglnd/total-serialism)
@@ -134,11 +135,14 @@ author: ""
 - **Activity**: Analyze AI-generated works for balance between human and AI contributions.
 - **Reading**: Brainard’s *Section 2.5* (Curiosity).
 - **Assignment**: Etude 3 (Wekinator Interactive Toys).
-  ## **Week 8 (3/3): Designing Interactive AI Systems**
+
+
+## **Week 8 (3/3): Designing Interactive AI Systems**
 - **Topics**: Building Wekinator-based prototypes.
 - **Key Concepts**: Balancing human involvement and AI autonomy in creative processes.
 - **Reflection**: “What level of human involvement is needed for creativity?”
-  
+
+
 ## **Week 9 (3/10): Spring Break – No Class**
   
 ## **Week 10 (3/17): AI and Deep Learning for Music**
