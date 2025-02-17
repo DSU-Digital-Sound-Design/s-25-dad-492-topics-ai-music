@@ -122,6 +122,7 @@ author: ""
 - implementing the audio mosaic
 - More examples of sequencing with Tone.js 
   - see: [Total Serialism](https://github.com/tmhglnd/total-serialism)
+  - [Tone.js Sequencing](../lectures/week-6/sequencing-with-tonejs)
 
 ## Thursday
 

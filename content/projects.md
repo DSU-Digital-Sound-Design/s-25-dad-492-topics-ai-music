@@ -86,7 +86,10 @@ Got it! Below is the revised version of the **Étude 2 - Audio Mosaic** project,
 # **Étude 2 - Audio Mosaic**  
 
 ## **Objective**  
-In this project, you will extend the **Audio Mosaic App** by incorporating **sound selection and playback techniques using Tone.js**. Instead of selecting sounds randomly, you will extract **low-level sound features** from an initial sound to retrieve similar sounds dynamically. You will also explore **different playback and processing methods** using **Tone.js** and **p5.js**.
+
+In this project you will create a piece of music using MIR features from the Freesound API. You have two routes to choose from: coding or non-coding.
+
+If you choose the **coding route**, you will extend the **Audio Mosaic App** by incorporating **sound selection and playback techniques using Tone.js**. Instead of selecting sounds randomly, you will extract **low-level sound features** from an initial sound to retrieve similar sounds dynamically. You will also explore **different playback and processing methods** using **Tone.js** and **p5.js**.
 
 If you **do not have coding experience**, you may choose **Option 4** for your sound variation, which does not require modifying code. Instead, you will use the Freesound search app to explore sound features and create a short composition.
 
@@ -257,11 +260,12 @@ This option allows you to explore **sound selection using audio features** witho
   - **Time & Envelope Features**: `ac_log_attack_time`, `ac_temporal_centroid`  
   - **Rhythm & Pitch Features**: `ac_tempo`, `ac_tonality`, `ac_note_midi`, `ac_note_frequency`  
   - **Other Descriptors**: `ac_reverb`, `ac_loop`, `ac_single_event`  
-- Save **at least four sounds** that fit your creative vision.  
-- Observe how changing the filters impacts the types of sounds retrieved.  
+- Click on the provided link to go to freesound.org and download the sounds for your composition.  
+- Observe how changing the filters impacts the types of sounds retrieved.
+- Tip: If you want to find a similar sound, just change one parameter at a time.
 
 #### **2. Create a Composition**  
-- Import the selected sounds into a **DAW** (Reaper, Audacity, BandLab, etc.).  
+- Import the selected sounds into a **DAW**.  
 - Arrange them into a **one-minute composition** that explores **sound relationships** and **textures**.  
 - You may apply **effects** (EQ, reverb, pitch shift, etc.), but focus on using the **original characteristics** of the sounds.  
 
