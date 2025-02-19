@@ -126,6 +126,9 @@ author: ""
 
 ## Thursday
 
+- Check out the updated content search example
+- More Tone.js sequencing examples
+  - [Tone.js Sequencing](../lectures/week-6/sequencing-with-tonejs)
 - implementing the audio mosaic
 - Sharing in progress work?
 
