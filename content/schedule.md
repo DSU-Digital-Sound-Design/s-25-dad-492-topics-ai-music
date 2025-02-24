@@ -132,14 +132,24 @@ author: ""
 - implementing the audio mosaic
 - Sharing in progress work?
 
-<!--   
-## **Week 7 (2/24): Interactive Machine Learning and HCI**
-- **Topics**: Wekinator and humans-in-the-loop systems.
-- **Key Concepts**: Human agency in collaborative systems; impact of AI on musicians.
-- **Activity**: Analyze AI-generated works for balance between human and AI contributions.
-- **Reading**: Brainard’s *Section 2.5* (Curiosity).
-- **Assignment**: Etude 3 (Wekinator Interactive Toys).
+# Week 7 (2/24): Interactive Machine Learning and HCI
 
+## Tuesday
+
+- Etude 2 presentations 
+- **Topics**: Wekinator and humans-in-the-loop systems.
+  - [slides](../lectures/week-7/hil-wekinator-intro/)
+- **Key Concepts**: Human agency in collaborative systems; impact of AI on musicians.
+
+## Thursday
+
+- More in depth with Wekinator - theory and practice 
+
+<!-- - **Activity**: Analyze AI-generated works for balance between human and AI contributions. -->
+<!-- - **Reading**: Brainard’s *Section 2.5* (Curiosity). -->
+<!-- - **Assignment**: Etude 3 (Wekinator Interactive Toys). -->
+
+<!--   
 
 ## **Week 8 (3/3): Designing Interactive AI Systems**
 - **Topics**: Building Wekinator-based prototypes.
