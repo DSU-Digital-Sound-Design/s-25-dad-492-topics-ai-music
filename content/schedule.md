@@ -143,7 +143,11 @@ author: ""
 
 ## Thursday
 
+- finish slides from Tuesday
 - More in depth with Wekinator - theory and practice 
+  - Install Wekinator [here](http://www.wekinator.org/downloads/)
+  - Look at [overview](http://www.wekinator.org/instructions/)
+  - Go through [walkthrough](http://www.wekinator.org/walkthrough/)
 
 <!-- - **Activity**: Analyze AI-generated works for balance between human and AI contributions. -->
 <!-- - **Reading**: Brainard’s *Section 2.5* (Curiosity). -->
