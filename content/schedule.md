@@ -153,9 +153,14 @@ author: ""
 <!-- - **Reading**: Brainard’s *Section 2.5* (Curiosity). -->
 <!-- - **Assignment**: Etude 3 (Wekinator Interactive Toys). -->
 
-<!--   
 
 ## **Week 8 (3/3): Designing Interactive AI Systems**
+
+<!-- 
+Ideas: in reaper have wekinator control the jog rate of the cursor in the timeline then record with birdbird. 
+ -->
+
+<!--   
 - **Topics**: Building Wekinator-based prototypes.
 - **Key Concepts**: Balancing human involvement and AI autonomy in creative processes.
 - **Reflection**: “What level of human involvement is needed for creativity?”
