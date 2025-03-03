@@ -154,7 +154,17 @@ author: ""
 <!-- - **Assignment**: Etude 3 (Wekinator Interactive Toys). -->
 
 
-## **Week 8 (3/3): Designing Interactive AI Systems**
+# Week 8 (3/3): Designing Interactive AI Systems
+
+## Tuesday
+
+- Finish going through [Wekinator](http://www.wekinator.org/walkthrough/) walkthroughs 
+- [Wekinator to Reaper](../lectures/week-8/wek-reaper/)
+- [Face and Body Tracking](https://github.com/tatecarson/facetrack-test)
+
+## Thursday
+
+- **Assignment**: Etude 3 (Wekinator Interactive Toys).
 
 <!-- 
 Ideas: in reaper have wekinator control the jog rate of the cursor in the timeline then record with birdbird. 
