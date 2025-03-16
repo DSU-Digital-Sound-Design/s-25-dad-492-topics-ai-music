@@ -79,10 +79,6 @@ Implementation guidance:
    
 ---
 
-Got it! Below is the revised version of the **Étude 2 - Audio Mosaic** project, now ensuring that coding students **experiment with the specific low-level features** listed on [this Freesound API Analysis documentation page](https://freesound.org/docs/api/analysis_docs.html) rather than the `ac_*` features.
-
----
-
 # **Étude 2 - Audio Mosaic**  
 
 ## **Objective**  
