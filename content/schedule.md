@@ -170,21 +170,23 @@ author: ""
 Ideas: in reaper have wekinator control the jog rate of the cursor in the timeline then record with birdbird. 
  -->
 
-<!--   
-- **Topics**: Building Wekinator-based prototypes.
-- **Key Concepts**: Balancing human involvement and AI autonomy in creative processes.
-- **Reflection**: “What level of human involvement is needed for creativity?”
 
-
-## **Week 9 (3/10): Spring Break – No Class**
+# **Week 9 (3/10): Spring Break – No Class**
   
-## **Week 10 (3/17): AI and Deep Learning for Music**
-- **Topics**: RNNs, GANs, VAEs, transformers for music generation.
-- **Key Concepts**: Preserving cultural authenticity in AI models.
-- **Activity**: Explore culturally specific music datasets and discuss ethical guidelines for their use.
-- **Etude 3 Due**: 3/19.
+# **Week 10 (3/17)**
+
+## Tuesday 
+
+- Etude 3 Workshop and explanation
+- **Etude 3 Due**: Friday 3/28.
+  - See the [resources page](../lectures/week-10/iml-resources/) for more documentation on Wekinator and IML. 
+
+## Thursday 
+
 - **No Class**: 3/20 (MoxSonic).
+- Next week we'll work more on Etude 3 and start talking about the final project.
   
+<!--   
 ## **Week 11 (3/24): Final Project Introduction**
 - **Topics**: "Escaping the Turing Trap"—conceptualizing systems for human-AI collaboration.
 - **Key Concepts**: Ethical considerations: copyright, cultural authenticity, and human impact.

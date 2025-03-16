@@ -298,150 +298,100 @@ Write a **short (1-2 paragraph) reflection** addressing:
 | **Composition Quality**     | 15  | Effectively integrates selected sounds into a cohesive piece. |
 | **Reflection & Analysis**   | 10  | Thoughtful discussion of feature-based searching and creative decisions. |
 
+<!-- # Etude 3 - Interactive Machine Learning with Wekinator 
 
-<!-- # Etude 2 - Audio Mosaic
+## **Overview**
+In this project, you will design an interactive system that uses **Wekinator** to process real-time inputs and generate musical or sound design outputs. You may develop:
+- **A live performance tool**
+- **A generative composition**
+- **An interactive sound installation**
+- **A sound design tool**
 
-## Objective  
-In this project, you will extend the Audio Mosaic App by incorporating sound selection and playback techniques using Tone.js. You will modify how sounds are retrieved from the Freesound API and experiment with different playback event types, focusing on creative sound manipulation.
-
-Instead of selecting sounds randomly, you will extract low-level features from an initial sound and use them to retrieve similar sounds dynamically. You will also implement different playback and processing methods using Tone.js and p5.js.
-
----
-
-## Understanding the Base Project  
-
-[Starter Project](https://glitch.com/~5-content-search-based-on-analysis)
-
-The base project already includes a search-and-playback system using Freesound API and Tone.js. Below is a breakdown of how it works and what you can modify:
-
-### How the Base App Works  
-
-**Retrieves an Initial Sound:**
-   - Searches Freesound based on an instrument tag and duration constraint.  
-   - Extracts MIR features from the selected sound:  
-     - Spectral Centroid (brightness)  
-     - Pitch  
-     - Spectral Spread (harmonic distribution)  
-     - Dissonance  
-   - Displays the sound’s metadata and provides basic playback controls.  
-
-**Finds Similar Sounds Based on Features:**  
-   - Uses content-based search to retrieve sonically similar sounds.  
-   - The search is based on extracted MIR descriptors (e.g., spectral centroid, pitch, etc.).  
-   - Displays a list of similar sounds with playback controls.  
-
- **Manages Audio Playback:**
-   - Uses Tone.js to create and manage multiple Tone.Player instances.  
-   - Implements play and stop functionality for each retrieved sound.  
-   - Uses a map-based structure to track active players.  
+This assignment encourages you to explore **gesture-based control, real-time adaptation, and AI-driven sound design** while reinforcing skills in Wekinator, Reaper, and sensor-based input systems.
 
 ---
 
-## Your Task: Expanding the Search Process  
-
-### Step 1: Experiment with Feature Extraction  
-The base project retrieves a fixed set of features from the first sound (spectral centroid, pitch, spectral spread, and dissonance). You must experiment with additional features to refine the search for similar sounds.  
-
-Freesound API Analysis Documentation:  
-> [https://freesound.org/docs/api/analysis_docs.html](https://freesound.org/docs/api/analysis_docs.html)  
-
-Some useful features you could extract:  
-- MFCCs (Mel-Frequency Cepstral Coefficients): Timbre descriptors useful for classifying sound types.  
-- Zero Crossing Rate: Determines whether a sound is percussive or tonal.  
-- Spectral Flatness: Measures noisiness vs. tonal structure.  
-- Rhythm Descriptors: Such as BPM or onset rate for rhythmic sounds.  
-- Envelope Shape: How a sound evolves over time (attack, sustain, decay).  
-
-Modify the `handleFirstSearchResult()` function to extract additional features and log them to the console. Once you find features that meaningfully differentiate sounds, use them to improve the content-based search query.
+## **Learning Objectives**
+By completing this project, you will:
+- Apply **interactive machine learning** concepts to sound and music.
+- Design a **custom AI model** that maps inputs (gesture, motion, facial expression, etc.) to musical outputs.
+- Train, evaluate, and refine a **real-time machine learning system** using Wekinator.
+- Experiment with **MIDI mapping, automation, and sound synthesis** in Reaper.
 
 ---
 
-### Step 2: Modify the Similar Sound Search  
-Once you've experimented with extracting features, modify `searchSimilarSounds()` to use new feature combinations for retrieving similar sounds.  
+## **Project Components**
+### **1. Concept Development**
+- **Brainstorm an idea** for how machine learning can be applied to sound.
+- Choose between:
+  - **Performance**: A live interactive system controlled by movement, gestures, or sound.
+  - **Composition**: A generative music system that evolves based on input.
+  - **Sound Design Tool**: A new interface or instrument that enhances sound manipulation.
 
-#### Example Adjustments to the Content-Based Search Query:  
-- Retrieve tonally similar sounds:  
-  ```js
-  const target = `.lowlevel.mfcc.mean:${mfccMean}+.lowlevel.spectral_flatness.mean:${flatnessMean}`;
-  ```
-- Retrieve rhythmically similar sounds:  
-  ```js
-  const target = `.lowlevel.rhythm.bpm.mean:${bpm}+.lowlevel.onset_rate.mean:${onsetRate}`;
-  ```
-- Retrieve percussive sounds with similar spectral characteristics:  
-  ```js
-  const target = `.lowlevel.spectral_flux.mean:${fluxMean}+.lowlevel.zero_crossing_rate.mean:${zcr}`;
-  ```
+- **Examples to Consider**:
+  - **Body Tracking Instrument** – Move your hands or full body to shape a live instrument.
+  - **Facial Expression Mapping** – Control parameters (reverb, delay, EQ) using eyebrow raises, mouth shapes, or head tilts.
+  - **Dynamic Mixing System** – Adjust levels based on detected movement intensity.
+  - **Gesture-Based Synth Controller** – Create a synth patch that is controlled by motion.
+  - **Mouse/Trackpad-Based Effects Controller** – Use drawn shapes or strokes to modulate sound effects.
+  - **Real-Time Sonification** – Convert movement into real-time ambient or melodic structures.
 
----
+### **2. Input & Output Mapping**
+- Choose **an input device**:
+  - **Face tracking** (e.g., eye movement, smiles, head position)
+  - **Body tracking** (e.g., Kinect, webcam-based tracking)
+  - **Mouse/trackpad movements**
+  - **Audio-based control** (e.g., volume levels, voice analysis)
+  - **Custom sensors** (e.g., Leap Motion, Myo armband, MIDI controllers)
 
-## Step 3: Implement One of Three Playback and Sound Processing Variations  
-
-Once you have modified the search behavior, implement one of the following playback variations. Each variation explores a different Tone.js event type for triggering and manipulating sounds while incorporating p5.js for interactive control.
-
-This is not an exhaustive list of possibilities; feel free to combine elements from different variations or propose your own creative approach. You don't need to implement every feature listed in the variations; focus on the ones that align with your creative vision.
-
----
-
-### Option 1: Sequenced Playback with Sound Feature Modulation  
-This variation transforms retrieved sounds into a pattern-based composition, where playback is triggered at regular intervals using Tone.js sequencing tools.
-
-#### Implementation Steps:  
-- Use `Tone.Sequence` to create a rhythmic or evolving playback sequence.  
-- Modify playback order based on spectral centroid or another extracted feature.  
-- Apply LFOs (`Tone.LFO`) to automate pitch, filter sweeps, or volume over time.  
-- Use effects like reverb (`Tone.Reverb`), delay (`Tone.FeedbackDelay`), or distortion (`Tone.Distortion`) to shape the sound.  
-
-#### Example Use Case:  
-An evolving ambient soundscape where retrieved sounds play in a repeating pattern, shifting in timbre and position over time.
+- Define your **output in Reaper**:
+  - **MIDI control** (e.g., notes, CC messages, velocity, pitch bend)
+  - **Effects modulation** (e.g., dynamic filtering, real-time reverb control)
+  - **Automation curves** (e.g., map hand movement to volume fades)
+  - **Generative music triggers** (e.g., movement-based sample triggering)
 
 ---
 
-### Option 2: Performance-Based Triggering with Keyboard Input  
-This variation allows users to trigger and manipulate sounds in real time using p5.js keyboard input functions.
+## **3. Model Training & Implementation**
+- **Train your Wekinator model**:
+  - Collect **training data** with a variety of inputs.
+  - Assign **clear mappings** between input features and outputs.
+  - Experiment with **classification, regression, or dynamic time warping**.
 
-#### Implementation Steps:  
-- Use p5.js `keyPressed()` to trigger different retrieved sounds when a key is pressed. 
-  - see: [p5.js Keyboard Input](https://p5js.org/reference/p5/keyPressed/) 
-- Implement `Tone.Player` to load and play sounds dynamically.  
-- Allow real-time pitch shifting (`Tone.PitchShift`) or filtering (`Tone.Filter`) based on key input.  
-- Map keys to different effects (e.g., pressing ‘A’ applies a delay, ‘B’ triggers a filter sweep).  
+- **Connect Wekinator to Reaper**:
+  - Use MIDI learning to map gestures to DAW parameters.
+  - Ensure latency and response time are optimized.
+  - Fine-tune input sensitivity and model responsiveness.
 
-
-#### Example Use Case:  
-An interactive sampler where retrieved sounds are played and manipulated based on keyboard input.
-
----
-
-### Option 3: Interactive Layered Textures with Randomized Playback  
-This variation focuses on asynchronous, layered playback, where retrieved sounds are triggered at varying intervals to create a more organic composition.
-
-#### Implementation Steps:  
-- Use randomized scheduling with `setTimeout()` or `Tone.Transport.schedule`.  
-- Layer multiple sounds with slight timing offsets for a shifting texture.  
-- Introduce probability-based triggering, where some sounds play more frequently than others.  
-- Apply granular processing (`Tone.GrainPlayer`) and spatialization (`Tone.Panner3D`) for movement.  
-
-#### Example Use Case:  
-A constantly shifting collage of retrieved sounds, with each playback slightly different, creating an unpredictable yet cohesive texture.
+- **Test and Refine**:
+  - Identify strengths/weaknesses in the model.
+  - Gather feedback (from yourself and classmates).
+  - Adjust training data for **better accuracy and control**.
 
 ---
 
-## Evaluation Criteria (50 Points Total)  
+## **4. Documentation & Presentation**
+### **A. Technical Documentation**
+- Provide a **written summary (2-3 pages)** or a **video walkthrough** covering:
+  - **Concept**: What inspired your idea?
+  - **Technical Setup**: What inputs and outputs were used?
+  - **Machine Learning Process**: How did you train your model?
+  - **Challenges & Refinements**: What issues arose, and how did you fix them?
+  - **Final Outcome**: What does your system do?
 
-| **Criteria**               | **Points** | **Description** |
-|----------------------------|------------|------------------------------------------------|
-| Feature-Based Querying     | 10         | Successfully extracts and uses additional MIR features to refine the search process. |
-| Code Implementation        | 20         | Functional, well-structured code with clear documentation. |
-| Creative Demonstration     | 10         | Effectively showcases the new system through a vide screen recording. |
-| Reflection & Analysis      | 10         | Thoughtful discussion of MIR principles and musical creativity. |
+### **B. Final Demonstration**
+- Prepare a **short demo (live or recorded)**.
+- Be prepared to discuss how your **interactive system enhances musical creativity**.
 
 ---
 
-## Submission Requirements
-- Your code with clear comments explaining audio parameters
-- A brief write-up explaining:
-   - Which extension you chose and why
-   - How your sound design relates to word relationships
-   - Your musical decision-making process
-- A short video demonstration with audio  -->
+# **Rubric: Evaluation Criteria**
+| **Category**               | **Excellent (A: 90-100%)**                                                                                     | **Good (B: 80-89%)**                                                                                      | **Satisfactory (C: 70-79%)**                                                                  | **Needs Improvement (D/F: <70%)**                                                                      |
+|---------------------------|----------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
+| **Creativity & Concept**  | Highly innovative idea with clear artistic/technical depth. Demonstrates strong originality in applying IML. | A creative and thoughtful concept with some unique elements. Demonstrates solid exploration of IML.       | A reasonable idea, but limited originality or complexity. Some experimentation but less exploration. | Lacks originality or is underdeveloped. Little evidence of creative exploration.                       |
+| **Technical Execution**   | Inputs and outputs work seamlessly, with well-trained models. Little to no latency or errors.                  | Mostly smooth execution, with minor technical issues that don’t significantly hinder functionality.       | Model works but has noticeable lag/errors. Integration with DAW is inconsistent.              | Major technical flaws prevent usability, or project is incomplete.                                      |
+| **Machine Learning Use**  | Training data is well-structured, leading to an accurate and responsive system.                                 | Training data is sufficient but could be better refined for improved performance.                         | Limited or imprecise training, leading to unpredictable or weak model behavior.               | Poorly trained model or lack of machine learning integration in the project.                           |
+| **Musical/Sonic Outcome** | The system generates compelling, expressive musical results. Thoughtful use of machine learning in sound.      | The system contributes musically, though some aspects feel underdeveloped.                                | Some musical interaction, but system feels rigid or lacks expressiveness.                     | The project does not effectively demonstrate musical or sonic interactions.                            |
+| **Documentation & Reflection** | Thorough and insightful write-up/video. Explains process, challenges, and refinements in depth.      | Solid documentation with minor gaps in explanation.                                                       | Basic documentation with some missing details on process or training refinements.            | Documentation is unclear, missing, or lacks meaningful explanation of the project process.            |
+
+ -->
