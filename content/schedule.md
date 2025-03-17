@@ -177,7 +177,7 @@ Ideas: in reaper have wekinator control the jog rate of the cursor in the timeli
 
 ## Tuesday 
 
-- Etude 3 Workshop and explanation
+- [Etude 3](../projects/#etude-3---interactive-machine-learning-with-wekinator) Workshop and explanation
 - **Etude 3 Due**: Friday 3/28.
   - See the [resources page](../lectures/week-10/iml-resources/) for more documentation on Wekinator and IML. 
 

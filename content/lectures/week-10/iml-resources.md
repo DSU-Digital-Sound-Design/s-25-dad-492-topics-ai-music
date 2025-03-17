@@ -2,7 +2,7 @@
 title: "Interactive Machine Learning in Music"
 ---
 
-# **Resources for Interactive Machine Learning in Music**
+# Resources for Interactive Machine Learning in Music
 
 ## Wekinator: Interactive Machine Learning for Artists
 
@@ -31,3 +31,7 @@ title: "Interactive Machine Learning in Music"
   - [Read the Article](https://nime.org/proc/nime2023_88/)
 - **Integrating Machine Learning in Interactive Musical Works:** Discusses systems using machine learning to interpret audio data in real-time, responding to musicians' actions.
   - [Read the Article](https://www.widsvillach.org/integrating-machine-learning-in-interactive-musical-works/)
+
+## DAW Specific Tools
+
+- [WekiTrainer version 0.9 by moih on maxforlive.com](https://www.maxforlive.com/library/device/5628/wekitrainer)

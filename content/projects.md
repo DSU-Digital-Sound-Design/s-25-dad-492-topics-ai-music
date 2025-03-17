@@ -291,43 +291,49 @@ Write a **short (1-2 paragraph) reflection** addressing:
 
 ## **Evaluation Criteria (50 Points Total)**  
 
-| **Criteria**               | **Points** | **Description** |
-|----------------------------|------------|------------------------------------------------|
-| **Feature-Based Searching** | 15  | Successfully finds and uses sounds based on their features. |
-| **Code Modification** (if applicable) | 10  | Successfully modifies the search system. |
-| **Composition Quality**     | 15  | Effectively integrates selected sounds into a cohesive piece. |
-| **Reflection & Analysis**   | 10  | Thoughtful discussion of feature-based searching and creative decisions. |
-
-<!-- # Etude 3 - Interactive Machine Learning with Wekinator 
-
-## **Overview**
-In this project, you will design an interactive system that uses **Wekinator** to process real-time inputs and generate musical or sound design outputs. You may develop:
-- **A live performance tool**
-- **A generative composition**
-- **An interactive sound installation**
-- **A sound design tool**
-
-This assignment encourages you to explore **gesture-based control, real-time adaptation, and AI-driven sound design** while reinforcing skills in Wekinator, Reaper, and sensor-based input systems.
+| **Criteria**                          | **Points** | **Description**                                                          |
+| ------------------------------------- | ---------- | ------------------------------------------------------------------------ |
+| **Feature-Based Searching**           | 15         | Successfully finds and uses sounds based on their features.              |
+| **Code Modification** (if applicable) | 10         | Successfully modifies the search system.                                 |
+| **Composition Quality**               | 15         | Effectively integrates selected sounds into a cohesive piece.            |
+| **Reflection & Analysis**             | 10         | Thoughtful discussion of feature-based searching and creative decisions. |
 
 ---
 
-## **Learning Objectives**
+# Etude 3 - Interactive Machine Learning with Wekinator 
+
+## Overview
+
+In this project, you will design an interactive system that uses Wekinator to process real-time inputs and generate musical or sound design outputs. You may develop:
+- A live performance tool
+- A generative composition
+- An interactive sound installation
+- A sound design tool
+
+## Learning Objectives
+
 By completing this project, you will:
-- Apply **interactive machine learning** concepts to sound and music.
-- Design a **custom AI model** that maps inputs (gesture, motion, facial expression, etc.) to musical outputs.
-- Train, evaluate, and refine a **real-time machine learning system** using Wekinator.
-- Experiment with **MIDI mapping, automation, and sound synthesis** in Reaper.
+- Apply interactive machine learning concepts to sound and music.
+- Design a custom AI model that maps inputs (gesture, motion, facial expression, etc.) to musical outputs.
+- Train, evaluate, and refine a real-time machine learning system using Wekinator.
+- Experiment with MIDI mapping, automation, and sound synthesis in Reaper.
 
 ---
 
-## **Project Components**
+## Project Components
+
 ### **1. Concept Development**
+
+**Refer to the course lectures and resources for inspiration and ideas.**
+
+> - [Introduction to Wekinator for Interactive Machine Learning in Music](../lectures/week-7/hil-wekinator-intro/)
+> - The guide for connecting Wekinator to Reaper - [Wekinator to Reaper](../lectures/week-8/wek-reaper/)
+
 - **Brainstorm an idea** for how machine learning can be applied to sound.
 - Choose between:
   - **Performance**: A live interactive system controlled by movement, gestures, or sound.
-  - **Composition**: A generative music system that evolves based on input.
-  - **Sound Design Tool**: A new interface or instrument that enhances sound manipulation.
-
+  - **Composition**: A fixed work in any style that used Wekinator in some substantial way in the compositional process.
+  - A **sound design tool** that uses machine learning to generate or manipulate sounds for a film or game project. 
 - **Examples to Consider**:
   - **Body Tracking Instrument** – Move your hands or full body to shape a live instrument.
   - **Facial Expression Mapping** – Control parameters (reverb, delay, EQ) using eyebrow raises, mouth shapes, or head tilts.
@@ -337,13 +343,19 @@ By completing this project, you will:
   - **Real-Time Sonification** – Convert movement into real-time ambient or melodic structures.
 
 ### **2. Input & Output Mapping**
+
+> See the [Wekinator to Reaper](../lectures/week-8/wek-reaper/) guide for setting up communication between Wekinator and Reaper. 
+> 
+> Also - Explore input and output [examples](http://www.wekinator.org/examples/) compatible with Wekinator.
+
+
 - Choose **an input device**:
   - **Face tracking** (e.g., eye movement, smiles, head position)
-  - **Body tracking** (e.g., Kinect, webcam-based tracking)
+  - **Body tracking** (e.g., webcam-based tracking)
   - **Mouse/trackpad movements**
+    - Note: as this is the simplest, and least interesting input, your final project should have a very creative and compelling output to compensate.
   - **Audio-based control** (e.g., volume levels, voice analysis)
-  - **Custom sensors** (e.g., Leap Motion, Myo armband, MIDI controllers)
-
+  - **Custom sensors** (e.g., Leap Motion, MIDI controllers)
 - Define your **output in Reaper**:
   - **MIDI control** (e.g., notes, CC messages, velocity, pitch bend)
   - **Effects modulation** (e.g., dynamic filtering, real-time reverb control)
@@ -357,12 +369,13 @@ By completing this project, you will:
   - Collect **training data** with a variety of inputs.
   - Assign **clear mappings** between input features and outputs.
   - Experiment with **classification, regression, or dynamic time warping**.
-
+    - We didn't cover classification or dynamic time warping, but they might be useful for your project. See [Understanding Wekinator’s output types
+](http://www.wekinator.org/detailed-instructions/#Dynamic_time_warping_in_Wekinator) for more information.
 - **Connect Wekinator to Reaper**:
+  - See [Wekinator to Reaper](../lectures/week-8/wek-reaper/) for detailed instructions. 
   - Use MIDI learning to map gestures to DAW parameters.
   - Ensure latency and response time are optimized.
   - Fine-tune input sensitivity and model responsiveness.
-
 - **Test and Refine**:
   - Identify strengths/weaknesses in the model.
   - Gather feedback (from yourself and classmates).
@@ -371,8 +384,9 @@ By completing this project, you will:
 ---
 
 ## **4. Documentation & Presentation**
+
 ### **A. Technical Documentation**
-- Provide a **written summary (2-3 pages)** or a **video walkthrough** covering:
+- Provide a **video walkthrough** covering:
   - **Concept**: What inspired your idea?
   - **Technical Setup**: What inputs and outputs were used?
   - **Machine Learning Process**: How did you train your model?
@@ -380,18 +394,19 @@ By completing this project, you will:
   - **Final Outcome**: What does your system do?
 
 ### **B. Final Demonstration**
-- Prepare a **short demo (live or recorded)**.
-- Be prepared to discuss how your **interactive system enhances musical creativity**.
+
+- Prepare a **short demo to show the class**.
+- Be prepared to discuss how your **interactive system enhances (or hinders) musical creativity**.
 
 ---
 
 # **Rubric: Evaluation Criteria**
-| **Category**               | **Excellent (A: 90-100%)**                                                                                     | **Good (B: 80-89%)**                                                                                      | **Satisfactory (C: 70-79%)**                                                                  | **Needs Improvement (D/F: <70%)**                                                                      |
-|---------------------------|----------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
-| **Creativity & Concept**  | Highly innovative idea with clear artistic/technical depth. Demonstrates strong originality in applying IML. | A creative and thoughtful concept with some unique elements. Demonstrates solid exploration of IML.       | A reasonable idea, but limited originality or complexity. Some experimentation but less exploration. | Lacks originality or is underdeveloped. Little evidence of creative exploration.                       |
-| **Technical Execution**   | Inputs and outputs work seamlessly, with well-trained models. Little to no latency or errors.                  | Mostly smooth execution, with minor technical issues that don’t significantly hinder functionality.       | Model works but has noticeable lag/errors. Integration with DAW is inconsistent.              | Major technical flaws prevent usability, or project is incomplete.                                      |
-| **Machine Learning Use**  | Training data is well-structured, leading to an accurate and responsive system.                                 | Training data is sufficient but could be better refined for improved performance.                         | Limited or imprecise training, leading to unpredictable or weak model behavior.               | Poorly trained model or lack of machine learning integration in the project.                           |
-| **Musical/Sonic Outcome** | The system generates compelling, expressive musical results. Thoughtful use of machine learning in sound.      | The system contributes musically, though some aspects feel underdeveloped.                                | Some musical interaction, but system feels rigid or lacks expressiveness.                     | The project does not effectively demonstrate musical or sonic interactions.                            |
-| **Documentation & Reflection** | Thorough and insightful write-up/video. Explains process, challenges, and refinements in depth.      | Solid documentation with minor gaps in explanation.                                                       | Basic documentation with some missing details on process or training refinements.            | Documentation is unclear, missing, or lacks meaningful explanation of the project process.            |
 
- -->
+| **Category**                     | **Excellent (A: 45-50)**                                                                                                                                                                                                                                                                                   | **Good (B: 40-44)**                                                                                                                                                                                                                      | **Satisfactory (C: 35-39)**                                                                                                                                                                                                                                                | **Needs Improvement (D/F: <34)**                                                                                                                                                                                                                                            |
+| -------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Creativity & Concept**         | Highly innovative and clearly articulated idea demonstrating strong originality in applying interactive machine learning. Concept fully aligns with chosen area (performance, composition, sound design tool, or installation) and presents significant artistic or technical depth.                       | Creative and well-articulated idea with clear exploration of interactive machine learning. Chosen area is evident, with notable artistic or technical depth, but may lack some originality or complexity.                                | Adequately developed concept with a basic level of originality and clear area of focus. Demonstrates some understanding of interactive machine learning applications but lacks depth.                                                                                      | Underdeveloped or unoriginal concept. Area of application unclear or poorly executed. Little meaningful use or understanding of interactive machine learning concepts.                                                                                                      |
+| **Technical Execution**          | Inputs and outputs are effectively mapped and work seamlessly with Wekinator and Reaper. System performs smoothly with minimal latency, clearly optimized for real-time interaction. All components function reliably in live settings.                                                                    | Inputs and outputs are mostly effective with minor technical issues. Some latency or minor integration problems, but these do not significantly impact usability or real-time interaction.                                               | Inputs and outputs function adequately but with noticeable latency or occasional errors. Somewhat inconsistent integration with Reaper, impacting real-time responsiveness.                                                                                                | Significant technical issues prevent effective use. Inputs and outputs poorly integrated, frequent errors, and substantial latency make real-time interaction difficult or impossible.                                                                                      |
+| **Machine Learning Use**         | Training data is thoughtfully designed, comprehensive, and effectively structured, resulting in an accurate and highly responsive Wekinator model. Clear mappings and successful experimentation with chosen ML methods (classification, regression, dynamic time warping).                                | Adequately structured training data providing generally accurate model behavior, though some refinement needed. Effective mapping with occasional minor inaccuracies or responsiveness issues.                                           | Training data has noticeable gaps or inconsistencies, resulting in unpredictable or limited model accuracy and responsiveness. Minimal experimentation with ML methods beyond basic setup.                                                                                 | Poorly structured or insufficient training data resulting in ineffective or unusable machine learning model. Little or no meaningful experimentation with Wekinator.                                                                                                        |
+| **Musical/Sonic Outcome**        | System produces compelling, expressive, and nuanced musical or sonic results. Thoughtful integration of machine learning significantly enhances the musical experience or sound design application.                                                                                                        | System produces musically engaging results with clear value added by machine learning, though certain aspects could be more fully developed or expressive.                                                                               | System generates some musical interaction but lacks expressiveness, nuance, or clear added value from machine learning integration. Results are predictable or overly simplistic.                                                                                          | System fails to effectively demonstrate musical or sonic creativity. Little or no expressive interaction resulting from machine learning integration.                                                                                                                       |
+| **Documentation & Presentation** | Thorough, clear, and insightful documentation and video walkthrough. Clearly explains concept inspiration, detailed technical setup, ML training process, challenges encountered, and specific refinements made. Demonstration effectively communicates the project's creative and technical achievements. | Good quality documentation and video walkthrough, clearly explaining most elements, though some minor gaps in detail or clarity are present. Demonstration successfully showcases project outcomes with minor areas needing elaboration. | Adequate documentation and video walkthrough covering basic process and project elements. Several details missing or insufficiently explained, leading to questions about training, setup, or refinements. Demonstration covers basic outcomes but lacks depth or clarity. | Poorly executed documentation and presentation, lacking clarity or completeness. Significant details missing, unclear explanations, or minimal reflection on challenges and solutions. Demonstration fails to effectively communicate project outcomes or learning process. |
+
