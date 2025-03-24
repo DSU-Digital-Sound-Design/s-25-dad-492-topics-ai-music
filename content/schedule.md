@@ -171,9 +171,9 @@ Ideas: in reaper have wekinator control the jog rate of the cursor in the timeli
  -->
 
 
-# **Week 9 (3/10): Spring Break – No Class**
+# Week 9 (3/10): Spring Break – No Class
   
-# **Week 10 (3/17)**
+# Week 10 (3/17)
 
 ## Tuesday 
 
@@ -186,13 +186,24 @@ Ideas: in reaper have wekinator control the jog rate of the cursor in the timeli
 - **No Class**: 3/20 (MoxSonic).
 - Next week we'll work more on Etude 3 and start talking about the final project.
   
-<!--   
-## **Week 11 (3/24): Final Project Introduction**
-- **Topics**: "Escaping the Turing Trap"—conceptualizing systems for human-AI collaboration.
+# Week 11 (3/24)
+
+## Tuesday 
+
+- Interactive Machine Learning Workshop for [Etude 3](../projects/#etude-3---interactive-machine-learning-with-wekinator) - Due on Friday
+  - Show me what you're working on and what problems your'e running in to 
+
+## Thursday 
+
+- no class - travel 
+
+
+<!-- - **Topics**: "Escaping the Turing Trap"—conceptualizing systems for human-AI collaboration.
 - **Key Concepts**: Ethical considerations: copyright, cultural authenticity, and human impact.
 - **Activity**: Begin brainstorming and prototyping.
-- **Reading**: Assign supplemental paper on cultural representation in AI.
+- **Reading**: Assign supplemental paper on cultural representation in AI. -->
   
+<!--   
 ## **Week 12 (3/31): System Design for AI and Music**
 - **Topics**: Discriminative vs. generative systems; inclusive and ethical design principles.
 - **Activity**: Draft project proposals addressing ethical challenges.
