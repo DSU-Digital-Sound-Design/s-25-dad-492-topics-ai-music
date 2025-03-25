@@ -197,28 +197,70 @@ Ideas: in reaper have wekinator control the jog rate of the cursor in the timeli
 
 - no class - travel 
 
+# Week 12 (3/31)
 
-<!-- - **Topics**: "Escaping the Turing Trap"—conceptualizing systems for human-AI collaboration.
-- **Key Concepts**: Ethical considerations: copyright, cultural authenticity, and human impact.
-- **Activity**: Begin brainstorming and prototyping.
-- **Reading**: Assign supplemental paper on cultural representation in AI. -->
+## Tuesday 
+
+- Show Etude 3
+- Introduce final project 
+
+> Note: Until the end of the semester we'll do project work on Tuesdays and reading discussions on Thursdays. Look at the schedule to see what we'll be discussing on that day and what you'll need to be prepared to speak about. 
+
+## Thursday 
+
+- [Aaron Hertzmann (2023) – What is Creativity? Can Computers Be Creative?](https://aaronhertzmann.com/2023/09/27/what-is-creativity.html)
+  - Hertzmann clearly outlines the philosophical and practical challenges of calling AI “creative.” It's accessible and provocative, and sets the tone for critically engaging with AI-generated music as art.
+- Discussion Questions:
+  - What do you define as creativity?
+  - Can a machine be creative without intention or awareness?
+  - How does this reading shape your view of AI-generated music?
   
-<!--   
-## **Week 12 (3/31): System Design for AI and Music**
-- **Topics**: Discriminative vs. generative systems; inclusive and ethical design principles.
-- **Activity**: Draft project proposals addressing ethical challenges.
-  
-## **Week 13 (4/7): Progress Check-In**
-- **Topics**: Peer feedback and collaborative critique on prototypes.
-- **Key Concepts**: Balancing automation and human interaction in design.
-- **Activity**: Discuss how projects align with ethical guidelines.
-  
-## **Weeks 14-16 (4/14 – 4/28): Final Project Work**
-- **Topics**: Refinement and implementation of final projects.
-- **Key Concepts**: Iterative design, agency, and ethical considerations.
-- **Activity**: In-class work sessions, one-on-one consultations with the instructor, peer reviews.
-  
-## **Final Exam Day: Final Presentations**
+# Week 13 (4/7)
+
+## Thursday 
+
+- [Selim Tan (2024) - Are We All Musicians Now? Authenticity, Musicianship, and AI Music Generator Suno](https://osf.io/preprints/socarxiv/4nt8z_v1)
+  - Selim Tan critically explores how Suno, an AI music generator, challenges traditional notions of authenticity, authorship, and musicianship by enabling users to create music through prompts, raising questions about creativity, ownership, and the evolving meaning of being a musician.
+- Discussion Questions: 
+  - Can users who generate music through prompts in Suno be considered musicians, and how does this challenge or expand traditional definitions of musicianship?
+  - In what ways might the lack of transparency in Suno’s training data affect the perceived authenticity and ethical legitimacy of its musical outputs?
+  - How does Suno's ability to turn everyday experiences into music through text, audio, image, or video prompts reflect or reshape the concept of musical expression and personal identity?
+
+
+
+# Week 14 (4/14)
+
+## Thursday 
+
+- [Nguyen & Mateescu (2024) – Generative AI and Labor: Power, Hype, and Value at Work](https://datasociety.net/wp-content/uploads/2024/12/DS_Generative-AI-and-Labor-Primer_Final.pdf)
+  - This piece connects directly to questions of automation, creative labor, and what gets erased in the hype cycle. It emphasizes structural critiques over technical ones.
+- Discussion Questions:
+  - Who benefits and who loses in the shift to AI-generated media?
+  - How might this change the role of the musician or sound designer?
+  - How do you see labor (or the lack of it) in AI music tools? 
+
+# Week 15 (4/21)
+
+## Thursday 
+
+- [Pelly (2019) – Big Mood Machine](https://thebaffler.com/latest/big-mood-machine-pelly)  
+  - Or [here](../lectures/week-15/Pelly_bigMoodMachine.pdf) if that's paywalled. 
+  - This article critically examines how Spotify commodifies listener mood and emotional data to fuel its advertising business, raising concerns about surveillance, manipulation, and the reshaping of music as a background marketing tool.  
+- Discussion Questions:  
+  - How does Spotify’s use of mood playlists influence what we listen to — and why we listen?  
+  - What are the ethical implications of treating emotional data as a product for advertisers?  
+  - In what ways does this system affect artists, musical diversity, or creative autonomy?
+
+# Week 16 (4/28)
+
+## Tuesday 
+
+## Thursday 
+
+# **Final Exam Day: Final Presentations**
+
 - **Topics**: Showcase completed projects to peers and possibly an external audience.
-- **Activity**: Presentations followed by a class discussion reflecting on course learning goals, creativity, and ethical insights. -->
+- **Activity**: Presentations followed by a class discussion reflecting on course learning goals, creativity, and ethical insights. 
+<!--   
+- -->
 
