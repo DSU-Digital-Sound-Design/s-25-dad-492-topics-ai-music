@@ -8,6 +8,8 @@ You are invited to choose a final project that best reflects your learning, curi
 
 See the [library](https://www.zotero.org/groups/5817982/ai_music_sources/library) for possible sources. 
 
+Also see the [AI Tools overview](ai-tools.md) if you want to use or critique the AI musical tools that we haven't yet talked about in class. 
+
 ---
 
 **How You’ll Be Assessed**
@@ -45,39 +47,6 @@ There is no one “right” project. You are encouraged to define success on you
 - How did you choose your sources and why?
 - What tensions or contradictions did you discover about copyright, authorship, or remix culture?
 - What do you think needs to change in the music industry to reflect current realities?
-
----
-
-**3. AI Music in/from the Majority World**  
-**Type**: Critical or Creative  
-**Prompt**: Research and present a case study on AI music tools in a non-Western context. Or, create a piece that critiques or responds to global imbalances in tech and data representation.
-
-**Reflection Questions**:
-- What assumptions about technology were challenged for you?
-- How did you try to center different perspectives?
-- What did you learn that you didn’t expect?
-
----
-
-**4. The Uncurious Composer: A Machine Learning Experiment**  
-**Type**: Creative  
-**Prompt**: Build a generative system (e.g., Markov chain, Wekinator, LLM prompt) that produces “uncurious” or derivative music. Contrast it with a human version. Explore how creativity and curiosity appear (or don’t) in each.
-
-**Reflection Questions**:
-- What was surprising about how the machine made music?
-- What decisions felt most “human” in your process?
-- Where do you locate creativity in your results?
-
----
-
-**5. Algorithmic Time Machine**  
-**Type**: Creative + Historical Analysis  
-**Prompt**: Re-create or remix a historical algorithmic music system using modern tools. Pair your creation with a short essay or audio commentary.
-
-**Reflection Questions**:
-- What connects old and new forms of algorithmic music?
-- How did your piece build on or diverge from earlier approaches?
-- What values from earlier practices do you think we’ve lost or gained?
 
 ---
 
