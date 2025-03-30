@@ -202,7 +202,7 @@ Ideas: in reaper have wekinator control the jog rate of the cursor in the timeli
 ## Tuesday 
 
 - Show Etude 3
-- Introduce final project 
+- Introduce [final project](../lectures/week-12/final-project) 
 
 > Note: Until the end of the semester we'll do project work on Tuesdays and reading discussions on Thursdays. Look at the schedule to see what we'll be discussing on that day and what you'll need to be prepared to speak about. 
 

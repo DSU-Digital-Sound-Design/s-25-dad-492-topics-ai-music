@@ -2,46 +2,53 @@
 title: "AI Tools for Creation and Co-Creation" 
 ---
 
-# Free AI Music Co-Creation Tools
 
-These free tools support **AI-assisted music creation**, enabling students to **co-create rather than generate entire compositions**. All are suitable for **coders and non-coders**, and integrate with DAWs like **Reaper, Ableton, and Studio One**, or function as standalone platforms.
+These free tools support AI-assisted music creation. Some tools assist in the creative process, and some can generate whole compositions from scratch.  
 
----
-
-## 🎼 Melody, Harmony, and Composition Assistants
-
-### [Magenta Studio](https://magenta.tensorflow.org/studio)
-A suite of AI tools for MIDI clip manipulation:
-- **Continue** melodies/harmonies
-- **Interpolate** between two clips
-- **Drumify** melodic rhythms into beats
-- **Groove** humanizes drums
-- **Generate** new ideas
-
-**Use in:** [Standalone](https://magenta.tensorflow.org/v1/studio) (drag-and-drop MIDI), or Ableton (Max for Live)  
-**Great for:** Expanding ideas, creating rhythmic/melodic variations  
+> Note: Inclusion of a project here is not an endorsement of how useful, creative, or ethical it is; just that it uses AI in some way to create sound or music. 
 
 ---
 
-### [BandLab SongStarter](https://www.bandlab.com/songstarter)
+## **Melody, Harmony, and Composition Assistants**
+
+### [Magenta Studio](https://magenta.tensorflow.org/studio)  
+A suite of AI tools for MIDI clip manipulation:  
+- **Continue** melodies/harmonies  
+- **Interpolate** between two clips  
+- **Drumify** melodic rhythms into beats  
+- **Groove** humanizes drums  
+- **Generate** new ideas  
+
+**Use in:** [Standalone](https://magenta.tensorflow.org/v1/studio) (drag-and-drop MIDI), or Ableton (Max for Live)
+
+---
+
+### [BandLab SongStarter](https://www.bandlab.com/songstarter)  
 AI generates 8-bar musical ideas based on genre, mood, or lyrics/emoji.
 
 **Use in:** BandLab (web or app); export audio/MIDI to other DAWs  
-**Great for:** Kickstarting projects, overcoming writer’s block  
 
 ---
 
-### [Riffusion](https://www.riffusion.com/)
-Text-to-music generation using AI diffusion models.
+### [Lemonaide AI](https://www.lemonaide.ai/)  
+AI-assisted songwriting tool for chords and melodies.
 
-**Use in:** Web (download loops as audio)  
-**Great for:** Inspiration, genre fusion, audio sketching  
+**Use in:** Web-based sketchpad  
+**Great for:** Quick harmonic/rhythmic inspiration, beat starters  
 
 ---
 
-## 🥁 AI for Rhythm and Drums
+### [Ecrett Music](https://ecrettmusic.com/)  
+Royalty-free background music generator for video, games, or streaming.
 
-### [DrumNet by SessionLoops](https://www.sessionloops.com/drumnet)
+**Use in:** Web platform  
+**Great for:** Music for scene-based assignments, non-musician students  
+
+---
+
+## **AI for Rhythm and Drums**
+
+### [DrumNet by SessionLoops](https://www.sessionloops.com/drumnet)  
 AI drum machine plugin:
 - Generates drum samples from scratch
 - Includes built-in sequencer
@@ -51,120 +58,181 @@ AI drum machine plugin:
 
 ---
 
-## AI for Sound Design and Timbre
+## **AI for Sound Design and Timbre**
 
+### [Neutone Inc.](https://neutone.ai/)  
+Real-time tone manipulation and morphing:
+- **Morpho:** tone morphing  
+- **Neutone FX:** multiple pretrained models  
 
-### [Tone Transfer](https://sites.research.google/tonetransfer/)
-Convert your humming or playing into the sound of another instrument (e.g., saxophone, flute).
-
-**Use in:** Web (export audio to DAW)  
-**Great for:** Quick instrument substitutions or sound experiments  
-
----
-
-### [Magenta DDSP VST](https://magenta.tensorflow.org/ddsp-vst)
-AI instrument plugin that turns MIDI into expressive instrument-like sounds (e.g., violin, saxophone). This is the real-time version of Tone Transfer. 
-
-**Use in:** VST3-compatible DAWs (Reaper, Ableton, etc.)  
-**Great for:** Unique, lo-fi instrument timbres and transformations  
+**Use in:** VST/AU plugin  
+**Great for:** Tone transfers, glitch aesthetics, creative FX  
 
 ---
 
-### [Scyclone by Torsion Audio](https://github.com/Torsion-Audio/scyclone)
-Real-time neural timbre transfer plugin based on the RAVE model. Morphs one sound into another timbral texture.
+### [Tone Transfer](https://sites.research.google/tonetransfer/)  
+Turn your humming or instrument into another instrument’s voice.
 
-**Use in:** Open-source VST/AU plugin (Reaper, Ableton, etc.)  
-**Great for:** Ambient textures, layered hybrid sounds, creative FX  
-
----
-
-### [Samplab Text-to-Sample](https://www.samplab.com/)
-VST plugin that generates sound effects and instruments from **text prompts**.
-
-**Use in:** Any DAW (VST/AU)  
-**Great for:** Foley, one-shots, custom SFX creation from descriptions  
+**Use in:** Web-based  
+**Great for:** Fast substitutions and experimental textures  
 
 ---
 
-### [This Patch Does Not Exist – Synth1 Generator](https://thispatchdoesnotexist.com/)
-Generates banks of AI-designed patches for Synth1 and DX7 (Dexed-compatible).
+### [Magenta DDSP VST](https://magenta.tensorflow.org/ddsp-vst)  
+Turns MIDI into expressive sounds using learned instrument models.
 
-**Use in:** Any DAW with Synth1 or Dexed  
-**Great for:** Unique synth patches, sound exploration, ambient or EDM textures  
-
----
-
-## AI Mixing, Mastering, and Stem Separation
-
-### [BandLab Mastering](https://www.bandlab.com/mastering)
-Upload a track and get a quick AI master using 4 style presets.
-
-**Use in:** Web; export mastered WAV  
-**Great for:** Loudness, polish, or reference mastering for free  
+**Use in:** VST3-compatible DAWs  
+**Great for:** Custom instrument voices, AI-aided timbral variation  
 
 ---
 
-### [Kits.AI Mastering](https://www.kits.ai/tools/ai-mastering)
-Free mastering tool with style presets and **reference track matching**.
+### [Scyclone by Torsion Audio](https://github.com/Torsion-Audio/scyclone)  
+Real-time neural timbre transfer using the RAVE model.
 
-**Use in:** Web; download mastered audio  
-**Great for:** Instant polish, streaming-ready test masters  
+**Use in:** Open-source VST/AU plugin  
+**Great for:** Ambient sound design, morphing hybrid sounds  
+
+---
+
+### [RAVE VST by IRCAM](https://forum.ircam.fr/projects/detail/rave-vst/)  
+Neural vocoder plugin for real-time timbral translation.
+
+**Use in:** VST; open-source  
+**Great for:** Advanced sound design with pretrained AI models  
+
+---
+
+### [NSynth Super (Magenta)](https://magenta.tensorflow.org/nsynth)  
+Blends two sounds to generate new timbres using a neural network.
+
+**Use in:** Web demo or hardware synth  
+**Great for:** Sonic hybridity, novel instruments  
+
+---
+
+### [Samplab Text-to-Sample](https://www.samplab.com/)  
+Generates one-shots, instruments, or effects from **text prompts**.
+
+**Use in:** VST/AU  
+**Great for:** Creating sound effects or abstract samples from scratch  
+
+---
+
+### [This Patch Does Not Exist – Synth1 Generator](https://thispatchdoesnotexist.com/)  
+AI-generated patches for Synth1 and Dexed.
+
+**Use in:** Synth1/Dexed plugins  
+**Great for:** New synth timbres, lo-fi textures, preset exploration  
+
+---
+
+## **AI Mixing, Mastering, and Stem Separation**
+
+### [BandLab Mastering](https://www.bandlab.com/mastering)  
+Upload a track and get a quick AI master with 4 style presets.
+
+**Use in:** Web  
+**Great for:** Polished rough mixes, free mastering examples  
+
+---
+
+### [Kits.AI Mastering](https://www.kits.ai/tools/ai-mastering)  
+AI mastering with genre-based presets and reference matching.
+
+**Use in:** Web  
+**Great for:** Streaming-ready polish, A/B mastering analysis  
 
 ---
 
 ### [Spleeter (via GitHub)](https://github.com/deezer/spleeter)  
-Also try: [EZStem GUI](https://ezstems.com/) for non-coders  
-AI-based **stem separator**: isolate vocals, drums, bass, etc.
+Also try: [EZStem GUI](https://ezstems.com/)  
+Stem separation from mixed tracks (vocals, drums, bass, etc.).
 
-**Use in:** Python CLI (coders) or web GUIs like [LALAL.AI](https://www.lalal.ai/) or [Moises](https://moises.ai/)  
-**Great for:** Remixing, sampling, practice, rebalancing mixes  
-
-Absolutely! Here's an additional section for **AI Tools That Can Create Songs from Scratch**, added at the bottom of the Markdown document to support analysis-style student projects. These tools are ideal for critique and evaluation, rather than the compositional final project focused on co-creation.
+**Use in:** Python CLI or GUI  
+**Great for:** Remixing, practice mixing, isolating parts  
 
 ---
 
-## AI Tools That Generate Full Songs (For Analysis Projects)
+### [Demucs](https://github.com/facebookresearch/demucs)  
+More advanced stem separation model than Spleeter.
 
-These tools use generative AI to create songs from scratch, often including lyrics, melody, harmony, instrumentation, and even vocals. While not recommended for your composition project (which emphasizes co-creation), they are excellent for **critical analysis** of how AI approaches creativity, genre emulation, production quality, and cultural representation.
-
-### [Suno](https://suno.ai/)
-Suno lets users generate full songs from a simple prompt or lyric. Its V3 model can create near-radio-quality tracks with convincing vocals and instrumentation.
-
-**Use in:** Web-based interface; no downloads required  
-**Great for:** Analyzing lyrical cohesion, vocal synthesis, genre emulation, production trends  
-**Known for:** Impressive vocal synthesis, easy lyric prompt control, fast turnaround  
+**Use in:** Python or GUI  
+**Great for:** High-quality separation for remixing, repurposing stems  
 
 ---
 
-### [Udio](https://www.udio.com/)
-Similar to Suno, Udio is a text-to-song generator that emphasizes customizable prompts. Users can select genre, lyrics, mood, and structure.
+### [Adobe Enhance Speech](https://podcast.adobe.com/enhance)  
+Cleans up voice recordings using AI to remove noise and clarify speech.
 
-**Use in:** Web-based; no coding or DAW needed  
-**Great for:** Comparative analysis with Suno, testing lyric/mood influence on musical output  
-**Known for:** Extended outputs, smoother transitions, high production polish  
-
----
-
-### [Soundraw](https://soundraw.io/)
-An AI music generator geared more toward background/production music. Users control mood, genre, length, and arrangement.
-
-**Use in:** Web-based; songs exportable for use in DAWs  
-**Great for:** Studying structure, modular arrangement, adaptive music use cases  
-**Note:** Free version allows previewing but limits downloads  
-
+**Use in:** Web-based  
+**Great for:** Podcasting, narration, voiceovers, field recordings  
 
 ---
 
-### [AIVA](https://www.aiva.ai/)
-Classical and cinematic AI composition tool. Users can generate full orchestral scores and edit them in a piano roll.
+## **AI Lyrics and Voice Models**
 
-**Use in:** Web platform with score/MIDI export  
-**Great for:** Analyzing form, orchestration, harmonic language in AI-generated compositions  
+### [These Lyrics Do Not Exist](https://theselyricsdonotexist.com/)  
+Random lyric generator based on genre, mood, and topic.
+
+**Use in:** Web  
+**Great for:** Prompt inspiration, songwriting exercises, lyric critique  
 
 ---
 
-### [Boomy](https://www.boomy.com/)
-One-click song generator with options for style, vocals, and distribution. Boomy also allows upload to streaming services.
+### [Voiceful.io](https://www.voiceful.io/)  
+Turn text or melody into expressive singing or spoken voice.
 
-**Use in:** Web-based; songs can be edited or re-generated  
-**Great for:** Critiquing commercial use of AI music, exploring music as content vs. art  
+**Use in:** Web  
+**Great for:** Prototyping vocal parts, exploring synthetic vocals  
+
+---
+
+### [Uberduck (Legacy)](https://uberduck.ai/)  
+Previously offered customizable AI rappers and voice models.
+
+**Use in:** (If reinstated) Web-based  
+**Great for:** Analyzing synthetic identity and parody, rap lyric generation  
+
+---
+
+## **AI Tools That Generate Full Songs (For Analysis Projects)**
+
+These tools generate complete songs (lyrics, melody, arrangement). Best for critique and evaluation—not for compositional assignments.
+
+### [Suno](https://suno.ai/)  
+Generates full songs from lyrics or short prompts.
+
+**Use in:** Web  
+**Great for:** Analyzing vocal synthesis, genre modeling, lyrical coherence  
+
+---
+
+### [Udio](https://www.udio.com/)  
+Text-to-music AI with extended generation and genre control.
+
+**Use in:** Web  
+**Great for:** Comparative analysis, studying structure and flow  
+
+---
+
+### [Soundraw](https://soundraw.io/)  
+Generates modular, customizable royalty-free music for content.
+
+**Use in:** Web  
+**Great for:** Studying adaptive/production music structure  
+
+---
+
+### [AIVA](https://www.aiva.ai/)  
+AI composer for orchestral, cinematic, and classical music.
+
+**Use in:** Web  
+**Great for:** Form and orchestration analysis, MIDI editing practice  
+
+---
+
+### [Boomy](https://www.boomy.com/)  
+One-click song generation with built-in styles and vocals.
+
+**Use in:** Web  
+**Great for:** Critiquing music as content, examining commercial AI production  
