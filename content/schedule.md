@@ -232,12 +232,18 @@ Ideas: in reaper have wekinator control the jog rate of the cursor in the timeli
 
 ## Thursday 
 
-- [Nguyen & Mateescu (2024) – Generative AI and Labor: Power, Hype, and Value at Work](https://datasociety.net/wp-content/uploads/2024/12/DS_Generative-AI-and-Labor-Primer_Final.pdf)
-  - This piece connects directly to questions of automation, creative labor, and what gets erased in the hype cycle. It emphasizes structural critiques over technical ones.
-- Discussion Questions:
-  - Who benefits and who loses in the shift to AI-generated media?
-  - How might this change the role of the musician or sound designer?
-  - How do you see labor (or the lack of it) in AI music tools? 
+Sure! Here's a matching entry in your requested format, based on the Gervais white paper:
+
+---
+
+- [Gervais (2024) – *The Remuneration of Music Creators for the Use of Their Works by Generative AI*](https://www.fairtrademusicinternational.org/wp-content/uploads/2024/08/FTMI-GenAI-White-Paper-EN.pdf)  
+  - This white paper offers a detailed legal and ethical argument for why music creators deserve compensation when their works are used to train generative AI models. Gervais proposes a new right of remuneration that focuses not on training itself, but on outputs that compete with human-made music. It links the current moment to a long history of copyright adapting to new technologies.
+- **Discussion Questions:**
+  - Why does Gervais argue that current copyright law is not enough to protect music creators from AI systems?
+  - What’s the difference between training data and generative outputs—and why does it matter legally and ethically?
+  - How might a right of remuneration change the economics of AI-generated music?
+  - What responsibilities should AI companies have toward the artists whose work they ingest?
+  - Do you think AI-generated music should be treated the same as human-made music in terms of copyright, authorship, and royalties? Why or why not?
 
 # Week 15 (4/21)
 
