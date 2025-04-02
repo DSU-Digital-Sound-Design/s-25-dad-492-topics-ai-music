@@ -214,6 +214,7 @@ Ideas: in reaper have wekinator control the jog rate of the cursor in the timeli
   - What do you define as creativity?
   - Can a machine be creative without intention or awareness?
   - How does this reading shape your view of AI-generated music?
+- [slides](../lectures/week-12/what-is-creativity/)
   
 # Week 13 (4/7)
 
@@ -231,7 +232,6 @@ Ideas: in reaper have wekinator control the jog rate of the cursor in the timeli
 # Week 14 (4/14)
 
 ## Thursday 
-
 
 - [Gervais (2024) – *The Remuneration of Music Creators for the Use of Their Works by Generative AI*](https://www.fairtrademusicinternational.org/wp-content/uploads/2024/08/FTMI-GenAI-White-Paper-EN.pdf)  
   - This white paper offers a detailed legal and ethical argument for why music creators deserve compensation when their works are used to train generative AI models. Gervais proposes a new right of remuneration that focuses not on training itself, but on outputs that compete with human-made music. It links the current moment to a long history of copyright adapting to new technologies.
