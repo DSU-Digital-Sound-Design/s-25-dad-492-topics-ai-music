@@ -446,7 +446,7 @@ This is a central argument of the text. To evaluate creativity, especially when 
 {{% note %}}
 A hallmark of a truly creative process, according to the author, is that the outcome holds surprises even for the creator. It signifies that something genuinely new emerged during the work, something not fully predictable from the starting point. Does current AI experience surprise at its own outputs? How does this metric relate to the work done in class? Were there elements of surprise in your projects? Was it controlled surprise or overwhelming randomness?
 {{% /note %}}
-s
+
 ---
 
 ## Discussion Point: The Surprise Factor
