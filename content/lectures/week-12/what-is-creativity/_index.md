@@ -16,8 +16,6 @@ margin = 0.2
 
 ---
 
----
-
 ## Discussion Point: Your Definition
 
 *   Before we dive deeper, what does 'creativity' mean to *you*?
