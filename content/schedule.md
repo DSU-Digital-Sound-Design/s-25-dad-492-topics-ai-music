@@ -226,6 +226,7 @@ Ideas: in reaper have wekinator control the jog rate of the cursor in the timeli
   - Can users who generate music through prompts in Suno be considered musicians, and how does this challenge or expand traditional definitions of musicianship?
   - In what ways might the lack of transparency in Suno’s training data affect the perceived authenticity and ethical legitimacy of its musical outputs?
   - How does Suno's ability to turn everyday experiences into music through text, audio, image, or video prompts reflect or reshape the concept of musical expression and personal identity?
+- [slides](../lectures/week-13/are-we-all-musicians-now/)
 
 
 
