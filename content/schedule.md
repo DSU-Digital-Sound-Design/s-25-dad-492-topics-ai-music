@@ -242,6 +242,7 @@ Ideas: in reaper have wekinator control the jog rate of the cursor in the timeli
   - How might a right of remuneration change the economics of AI-generated music?
   - What responsibilities should AI companies have toward the artists whose work they ingest?
   - Do you think AI-generated music should be treated the same as human-made music in terms of copyright, authorship, and royalties? Why or why not?
+- [slides](../lectures/week-14/gervais-remuneration/)
 
 # Week 15 (4/21)
 
