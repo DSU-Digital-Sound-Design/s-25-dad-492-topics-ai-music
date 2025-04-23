@@ -255,17 +255,19 @@ Ideas: in reaper have wekinator control the jog rate of the cursor in the timeli
   - How does Spotify’s use of mood playlists influence what we listen to — and why we listen?  
   - What are the ethical implications of treating emotional data as a product for advertisers?  
   - In what ways does this system affect artists, musical diversity, or creative autonomy?
+- [slides](../lectures/week-15/mood-machine/)
 
 # Week 16 (4/28)
 
 ## Tuesday 
 
+- Last work day 
+
 ## Thursday 
 
-# **Final Exam Day: Final Presentations**
+- No class - out of town 
 
-- **Topics**: Showcase completed projects to peers and possibly an external audience.
-- **Activity**: Presentations followed by a class discussion reflecting on course learning goals, creativity, and ethical insights. 
+
 <!--   
 - -->
 
